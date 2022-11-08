@@ -35,13 +35,15 @@ export default class ExpansionPanelPropertiesAndEvents extends React.Component<a
         );
     }
 
+    private _timeoutId: number;
+
     public onExpansionPanelClosed() {
 
         this.setState({ subtitleClass: "", eventSpanClass: "eventSpanShown", eventSpanText: "Closed event fired!"});
 
         window.clearTimeout(undefined);
 
-        window.setTimeout(() => {
+        this._timeoutId = window.setTimeout(() => {
             this.setState({eventSpanClass: "eventSpanHidden"});
         }, 2000);
     }
@@ -51,7 +53,7 @@ export default class ExpansionPanelPropertiesAndEvents extends React.Component<a
 
         window.clearTimeout(undefined);
 
-        window.setTimeout(() => {
+        this._timeoutId = window.setTimeout(() => {
             this.setState({eventSpanClass: "eventSpanHidden"});
         }, 2000);
     }

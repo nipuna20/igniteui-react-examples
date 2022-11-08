@@ -279,20 +279,17 @@ export default class DataGridPerformance extends React.Component<any, any> {
                     width="*>120"
                     horizontalAlignment="right"
                     cellStyleKeyRequested={this.onPriceStyleKey}
-                    cellUpdating={this.onPriceCellUpdating} >
-                </IgrTemplateColumn>
+                    cellUpdating={this.onPriceCellUpdating} ></IgrTemplateColumn>
 
                 <IgrTemplateColumn field="Change" width="*>120"
                     horizontalAlignment="right"
                     cellStyleKeyRequested={this.onPriceAmountStyleKey}
-                    cellUpdating={this.onPriceAmountCellUpdating}>
-                </IgrTemplateColumn>
+                    cellUpdating={this.onPriceAmountCellUpdating}></IgrTemplateColumn>
 
                 <IgrTemplateColumn field="PercentChange" width="*>140"
                     horizontalAlignment="right" headerText="Change (%)"
                     cellStyleKeyRequested={this.onPricePercentStyleKey}
-                    cellUpdating={this.onPricePercentCellUpdating}>
-                </IgrTemplateColumn>
+                    cellUpdating={this.onPricePercentCellUpdating}></IgrTemplateColumn>
 
                 <IgrDateTimeColumn field="DateValue" headerText="Date" width="*>120" />
                 {
