@@ -39,6 +39,7 @@ export default class CategoryChartTooltipTemplate extends React.Component<any, a
                         chartType="Column"
                         isTransitionInEnabled="true"
                         xAxisInterval={1}
+                        toolTipType="None"
                         seriesAdded={this.onSeriesAdded} />
                 </div>
             </div>
@@ -67,7 +68,7 @@ export default class CategoryChartTooltipTemplate extends React.Component<any, a
         if (!dataItem) return null;
 
         return <div>
-            <div className="tooltipTitle">{dataItem.Country} Production</div>
+        <div className="tooltipTitle">{dataItem.Country} Production</div>
             <div className="tooltipBox">
                 <div className="tooltipRow">
                     <div className="tooltipLbl">Franchise:</div>
@@ -89,7 +90,6 @@ export default class CategoryChartTooltipTemplate extends React.Component<any, a
         if (!chart) { return; }
 
         this.chart = chart;
-        // this.chart.toolTipType = ToolTipType.None;
     }
 
     public initData() {
