@@ -17,8 +17,10 @@ name: $(BuildDefinitionName)_$(Year:yyyy).$(Month).$(DayOfMonth)$(Rev:.r)
 stages:
 - stage: Build
   pool:
-    name: BuildAgentOnPrem
-    demands: npm
+    name: DEVTOOLS-XPLATPROD
+    # demands: Beefy
+    demands:
+    - Agent.ComputerName -equals S0103XPBLD2
   jobs:
   - job: BuildSamples
     steps:
