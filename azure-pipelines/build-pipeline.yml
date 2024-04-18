@@ -27,11 +27,10 @@ stages:
       - checkout: 'self' 
         path: $(Build.Repository.Name)
 
-      - task: NodeTool@0
-        displayName: 'Install Node'
+      - task: UseNode@1
         inputs:
-          versionSource: 'spec'
-          versionSpec: '16.x'
+          version: '16.x'
+          checkLatest: true
 
       - task: RegexReplace@3
         enabled: false
@@ -112,14 +111,24 @@ stages:
             cd $(Build.SourcesDirectory)\browser
             npm install igniteui-dockmanager@npm:@infragistics/igniteui-dockmanager@$($(jq '.dependencies.\"igniteui-dockmanager\"' .\package.json).Trim('"'))
 
-      - task: Npm@1
+      - task: PowerShell@2
         displayName: 'npm run build'
         inputs:
-          command: custom
-          workingDir: '$(Build.SourcesDirectory)\browser'
-          verbose: ${{ parameters.isVerbose }}
-          #customCommand: ci
-          customCommand: 'run build'
+          targetType: 'inline'
+          script: |
+            cd $(Build.SourcesDirectory)\browser
+            node -v
+            npm -v
+            npm run build
+
+      #- task: Npm@1
+      #  displayName: 'npm run build'
+      #  inputs:
+      #    command: custom
+      #    workingDir: '$(Build.SourcesDirectory)\browser'
+      #    verbose: ${{ parameters.isVerbose }}
+      #    #customCommand: ci
+      #    customCommand: 'run build'
 
       - task: ArchiveFiles@2
         displayName: 'Package samples browser'
