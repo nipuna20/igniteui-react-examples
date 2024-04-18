@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { SampleComboData } from './SampleComboData';
-import { IgrMultiColumnComboBoxModule } from 'igniteui-react-grids';
-import { IgrMultiColumnComboBox, SortMode } from 'igniteui-react-grids';
-import { IgrColumnWidth } from 'igniteui-react-grids';
+import { IgrMultiColumnComboBoxModule } from "@infragistics/igniteui-react-grids";
+import { IgrMultiColumnComboBox, SortMode } from "@infragistics/igniteui-react-grids";
+import { IgrColumnWidth } from "@infragistics/igniteui-react-grids";
 
 IgrMultiColumnComboBoxModule.register();
 

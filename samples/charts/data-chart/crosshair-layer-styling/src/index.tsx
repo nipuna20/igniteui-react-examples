@@ -2,19 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // importing axis' modules:
-import { AxisLabelsLocation, IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrCategoryXAxis } from 'igniteui-react-charts';
+import { AxisLabelsLocation, IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryXAxis } from "@infragistics/igniteui-react-charts";
 // importing category series' modules:
-import { IgrLineSeries } from 'igniteui-react-charts';
-import { IgrCrosshairLayer } from "igniteui-react-charts";
+import { IgrLineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrCrosshairLayer } from "@infragistics/igniteui-react-charts";
 // importing data chart's modules:
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartCategoryModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCategoryModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 
 import { SampleCategoryData } from './SampleCategoryData';
-import { Visibility } from 'igniteui-react-core';
+import { Visibility } from "@infragistics/igniteui-react-core";
 
 IgrDataChartCoreModule.register();
 IgrDataChartCategoryModule.register();

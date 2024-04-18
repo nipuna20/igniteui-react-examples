@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { IgrTreemapModule } from 'igniteui-react-charts';
-import { IgrTreemap } from 'igniteui-react-charts';
-import { IgrTreemapNodePointerEventArgs } from 'igniteui-react-charts';
+import { IgrTreemapModule } from "@infragistics/igniteui-react-charts";
+import { IgrTreemap } from "@infragistics/igniteui-react-charts";
+import { IgrTreemapNodePointerEventArgs } from "@infragistics/igniteui-react-charts";
 import { CountryTreeData } from './CountryTreeData';
 
 IgrTreemapModule.register();

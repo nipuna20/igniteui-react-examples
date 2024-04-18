@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrDataLegendModule, IgrCategoryChartModule } from 'igniteui-react-charts';
-import { IgrNumberFormatSpecifierModule } from 'igniteui-react-core';
-import { IgrDataLegend, IgrCategoryChart } from 'igniteui-react-charts';
-import { IgrNumberFormatSpecifier } from 'igniteui-react-core';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, DataLegendDescriptionModule, CategoryChartDescriptionModule, NumberFormatSpecifierDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrDataLegendModule, IgrCategoryChartModule } from "@infragistics/igniteui-react-charts";
+import { IgrNumberFormatSpecifierModule } from "@infragistics/igniteui-react-core";
+import { IgrDataLegend, IgrCategoryChart } from "@infragistics/igniteui-react-charts";
+import { IgrNumberFormatSpecifier } from "@infragistics/igniteui-react-core";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, DataLegendDescriptionModule, CategoryChartDescriptionModule, NumberFormatSpecifierDescriptionModule } from "@infragistics/igniteui-react-core";
 import { HighestGrossingMoviesItem, HighestGrossingMovies } from './HighestGrossingMovies';
 
 const mods: any[] = [

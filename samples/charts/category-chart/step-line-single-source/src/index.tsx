@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrCategoryChartModule, IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrCategoryChart } from 'igniteui-react-charts';
+import { IgrCategoryChartModule, IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryChart } from "@infragistics/igniteui-react-charts";
 import { CountryRenewableElectricityItem, CountryRenewableElectricity } from './CountryRenewableElectricity';
 
 const mods: any[] = [

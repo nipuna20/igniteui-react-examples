@@ -4,7 +4,7 @@ import './index.css';
 import './AccordionOverview.css';
 import {
     IgrAccordion, IgrAccordionModule, IgrExpansionPanel, IgrExpansionPanelModule, IgrSwitch, IgrSwitchModule,
-    IgrComponentBoolValueChangedEventArgs } from 'igniteui-react';
+    IgrComponentBoolValueChangedEventArgs } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrAccordionModule.register();

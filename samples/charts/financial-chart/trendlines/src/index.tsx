@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrFinancialChart } from 'igniteui-react-charts';
-import { IgrFinancialChartModule } from 'igniteui-react-charts';
+import { IgrFinancialChart } from "@infragistics/igniteui-react-charts";
+import { IgrFinancialChartModule } from "@infragistics/igniteui-react-charts";
 import StocksHistory from './StocksHistory';
 
 IgrFinancialChartModule.register();

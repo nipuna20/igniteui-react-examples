@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrGrid, IgrColumn, IgrColumnPipeArgs } from 'igniteui-react-grids';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, WebGridDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrGrid, IgrColumn, IgrColumnPipeArgs } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, WebGridDescriptionModule } from "@infragistics/igniteui-react-core";
 import { EmployeesDataItem, EmployeesData } from './EmployeesData';
-import { IgrAvatar } from 'igniteui-react';
-import { IgrCellTemplateContext } from 'igniteui-react-grids';
+import { IgrAvatar } from "@infragistics/igniteui-react";
+import { IgrCellTemplateContext } from "@infragistics/igniteui-react-grids";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 const mods: any[] = [

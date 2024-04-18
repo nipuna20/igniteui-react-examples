@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrBulletGraph } from 'igniteui-react-gauges';
-import { IgrLinearGraphRange } from 'igniteui-react-gauges';
-import { IgrBulletGraphModule } from 'igniteui-react-gauges';
-import { LinearScaleOrientation } from 'igniteui-react-gauges';
+import { IgrBulletGraph } from "@infragistics/igniteui-react-gauges";
+import { IgrLinearGraphRange } from "@infragistics/igniteui-react-gauges";
+import { IgrBulletGraphModule } from "@infragistics/igniteui-react-gauges";
+import { LinearScaleOrientation } from "@infragistics/igniteui-react-gauges";
 
 IgrBulletGraphModule.register();
 

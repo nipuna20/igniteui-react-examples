@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrBadgeModule } from 'igniteui-react';
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrHierarchicalGridModule } from 'igniteui-react-grids';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrHierarchicalGrid, IgrColumn, IgrRowIsland } from 'igniteui-react-grids';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, WebHierarchicalGridDescriptionModule } from 'igniteui-react-core';
+import { IgrBadgeModule } from "@infragistics/igniteui-react";
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrHierarchicalGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrHierarchicalGrid, IgrColumn, IgrRowIsland } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, WebHierarchicalGridDescriptionModule } from "@infragistics/igniteui-react-core";
 import SingersData from './SingersData.json';
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 const mods: any[] = [

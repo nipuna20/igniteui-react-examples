@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrDataChartCoreModule, IgrDataChartCategoryModule } from 'igniteui-react-charts';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrWaterfallSeries } from 'igniteui-react-charts';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, DataChartCoreDescriptionModule, DataChartCategoryDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChartCoreModule, IgrDataChartCategoryModule } from "@infragistics/igniteui-react-charts";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrWaterfallSeries } from "@infragistics/igniteui-react-charts";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, DataChartCoreDescriptionModule, DataChartCategoryDescriptionModule } from "@infragistics/igniteui-react-core";
 import { CompanyIncomeDataItem, CompanyIncomeData } from './CompanyIncomeData';
-import { IgrPropertyEditorPropertyDescriptionButtonClickEventArgs } from 'igniteui-react-layouts';
+import { IgrPropertyEditorPropertyDescriptionButtonClickEventArgs } from "@infragistics/igniteui-react-layouts";
 
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 

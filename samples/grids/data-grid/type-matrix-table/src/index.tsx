@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // grid modules:
-import { IgrDataGridModule } from 'igniteui-react-grids';
-import { IgrDataGrid } from 'igniteui-react-grids';
-import { IgrTextColumn } from 'igniteui-react-grids';
-import { IgrTemplateColumn } from 'igniteui-react-grids';
-import { IgrTemplateCellInfo } from 'igniteui-react-grids';
-import { IgrTemplateHeader } from 'igniteui-react-grids';
-import { IgrTemplateCellUpdatingEventArgs } from 'igniteui-react-grids';
-import { IgrTemplateHeaderCellUpdatingEventArgs } from 'igniteui-react-grids';
+import { IgrDataGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrDataGrid } from "@infragistics/igniteui-react-grids";
+import { IgrTextColumn } from "@infragistics/igniteui-react-grids";
+import { IgrTemplateColumn } from "@infragistics/igniteui-react-grids";
+import { IgrTemplateCellInfo } from "@infragistics/igniteui-react-grids";
+import { IgrTemplateHeader } from "@infragistics/igniteui-react-grids";
+import { IgrTemplateCellUpdatingEventArgs } from "@infragistics/igniteui-react-grids";
+import { IgrTemplateHeaderCellUpdatingEventArgs } from "@infragistics/igniteui-react-grids";
 
 IgrDataGridModule.register();
 

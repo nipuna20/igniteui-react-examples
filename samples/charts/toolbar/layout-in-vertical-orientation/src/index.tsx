@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrToolbarModule } from 'igniteui-react-layouts';
-import { IgrDataChartToolbarModule, IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule, IgrAnnotationLayerProxyModule, IgrDataChartCategoryTrendLineModule } from 'igniteui-react-charts';
-import { IgrToolbar } from 'igniteui-react-layouts';
-import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrLineSeries } from 'igniteui-react-charts';
+import { IgrToolbarModule } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChartToolbarModule, IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule, IgrAnnotationLayerProxyModule, IgrDataChartCategoryTrendLineModule } from "@infragistics/igniteui-react-charts";
+import { IgrToolbar } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrLineSeries } from "@infragistics/igniteui-react-charts";
 import { CountryRenewableElectricityItem, CountryRenewableElectricity } from './CountryRenewableElectricity';
 
 const mods: any[] = [

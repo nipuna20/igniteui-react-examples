@@ -2,11 +2,11 @@ import React, { KeyboardEvent, useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { IgrCellTemplateContext, IgrGridModule, IgrGridToolbar, IgrGridToolbarActions, IgrGridToolbarExporter, IgrGridToolbarHiding, IgrGridToolbarPinning, IgrGroupingExpression, SortingDirection } from "igniteui-react-grids";
-import { IgrGrid, IgrColumn } from "igniteui-react-grids";
-import "igniteui-react-grids/grids/combined";
-import "igniteui-react-grids/grids/themes/light/bootstrap.css";
-import { IgrCategoryChart, IgrCategoryChartModule } from 'igniteui-react-charts';
+import { IgrCellTemplateContext, IgrGridModule, IgrGridToolbar, IgrGridToolbarActions, IgrGridToolbarExporter, IgrGridToolbarHiding, IgrGridToolbarPinning, IgrGroupingExpression, SortingDirection } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrColumn } from "@infragistics/igniteui-react-grids";
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
+import { IgrCategoryChart, IgrCategoryChartModule } from "@infragistics/igniteui-react-charts";
 import {
   IgrButton,
   IgrChip,
@@ -21,7 +21,7 @@ import {
   IgrSwitch,
   IgrToast,
   IgrToastModule,
-} from "igniteui-react";
+} from "@infragistics/igniteui-react";
 import { FinancialData } from "./FinancialData";
 
 const mods: any[] = [IgrGridModule, IgrIconModule, IgrToastModule, IgrCategoryChartModule];

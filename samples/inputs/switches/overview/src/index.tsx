@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrSwitch, IgrSwitchModule } from 'igniteui-react';
+import { IgrSwitch, IgrSwitchModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrSwitchModule.register();

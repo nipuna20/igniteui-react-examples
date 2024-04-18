@@ -5,7 +5,7 @@ import {
     IgrStepper, IgrStep, IgrStepperModule, IgrRadio, IgrRadioGroup, IgrRadioModule, IgrRadioGroupModule,
     IgrButton, IgrButtonModule, IgrInput, IgrInputModule, IgrSelect, IgrSelectItem, IgrSelectModule,
     IgrSelectItemComponentEventArgs, IgrComponentValueChangedEventArgs
-} from 'igniteui-react';
+} from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrStepperModule.register();

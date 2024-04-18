@@ -8,7 +8,7 @@ import {
     IgrRadio, IgrRadioModule, IgrRadioGroup, IgrRadioGroupModule, IgrRating, IgrRatingModule,
     IgrRangeSlider, IgrRangeSliderModule, IgrComponentBoolValueChangedEventArgs,
     IgrRangeSliderValueEventArgs, IIgrRadioProps, IgrComponentDateValueChangedEventArgs
-} from 'igniteui-react';
+} from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrAccordionModule.register();

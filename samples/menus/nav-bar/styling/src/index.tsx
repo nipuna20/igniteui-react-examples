@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './NavbarStyling.css';
-import { IgrNavbar, IgrIcon, IgrNavbarModule, IgrIconModule } from 'igniteui-react';
+import { IgrNavbar, IgrIcon, IgrNavbarModule, IgrIconModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrNavbarModule.register();

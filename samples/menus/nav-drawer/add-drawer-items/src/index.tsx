@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { IgrNavDrawer, IgrNavDrawerHeaderItem, IgrNavDrawerItem, IgrIcon, IgrNavDrawerModule, IgrIconModule,
-         IgrIconButton, IgrIconButtonModule } from 'igniteui-react';
+         IgrIconButton, IgrIconButtonModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrNavDrawerModule.register();

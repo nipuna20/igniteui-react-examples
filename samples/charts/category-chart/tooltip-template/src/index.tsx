@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrCategoryChart } from 'igniteui-react-charts';
-import { IgrCategoryChartModule } from 'igniteui-react-charts';
-import { IgrDataContext } from 'igniteui-react-core';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrCategoryChart } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryChartModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataContext } from "@infragistics/igniteui-react-core";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 
 IgrDataChartCoreModule.register();
 IgrDataChartInteractivityModule.register();

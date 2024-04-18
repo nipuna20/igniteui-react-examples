@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrGeographicTileSeries } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrHeatTileGenerator } from 'igniteui-react-core';
-import { IgrTileGeneratorMapImagery } from 'igniteui-react-maps';
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicTileSeries } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrHeatTileGenerator } from "@infragistics/igniteui-react-core";
+import { IgrTileGeneratorMapImagery } from "@infragistics/igniteui-react-maps";
 // background worker
 import Worker from "./heatworker.worker"
 

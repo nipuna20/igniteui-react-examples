@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrTreemapModule } from 'igniteui-react-charts';
-import { IgrTreemap } from 'igniteui-react-charts';
+import { IgrTreemapModule } from "@infragistics/igniteui-react-charts";
+import { IgrTreemap } from "@infragistics/igniteui-react-charts";
 import { CountyHierarchicalDataItem, CountyHierarchicalData } from './CountyHierarchicalData';
 
 const mods: any[] = [

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrTreemapModule, TreemapHighlightingMode } from 'igniteui-react-charts';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrTreemap } from 'igniteui-react-charts';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, TreemapDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrTreemapModule, TreemapHighlightingMode } from "@infragistics/igniteui-react-charts";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrTreemap } from "@infragistics/igniteui-react-charts";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, TreemapDescriptionModule } from "@infragistics/igniteui-react-core";
 import { CountyHierarchicalDataItem, CountyHierarchicalData } from './CountyHierarchicalData';
 
 import 'igniteui-webcomponents/themes/light/bootstrap.css';

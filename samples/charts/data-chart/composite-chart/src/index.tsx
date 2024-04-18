@@ -17,7 +17,7 @@ import {
   IgrColumnSeries,
   IgrSplineAreaSeries,
   IgrCalloutLayer
-} from "igniteui-react-charts";
+} from "@infragistics/igniteui-react-charts";
 
 IgrDataChartCoreModule.register();
 IgrDataChartCategoryCoreModule.register();

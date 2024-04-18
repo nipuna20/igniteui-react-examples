@@ -1,30 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartCategoryModule } from 'igniteui-react-charts';
-import { IgrDataChartStackedModule } from 'igniteui-react-charts';
-import { IgrColumnFragmentModule } from 'igniteui-react-charts'
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrStackedFragmentSeries } from 'igniteui-react-charts';
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrNumericXAxis } from 'igniteui-react-charts';
-import { IgrCategoryXAxis } from 'igniteui-react-charts';
-import { IgrCategoryYAxis } from 'igniteui-react-charts';
-import { IgrStackedColumnSeries } from 'igniteui-react-charts';
-import { IgrStacked100ColumnSeries } from 'igniteui-react-charts';
-import { IgrStackedAreaSeries } from 'igniteui-react-charts';
-import { IgrStacked100AreaSeries } from 'igniteui-react-charts';
-import { IgrStackedLineSeries } from 'igniteui-react-charts';
-import { IgrStacked100LineSeries } from 'igniteui-react-charts';
-import { IgrStackedSplineSeries } from 'igniteui-react-charts';
-import { IgrStacked100SplineSeries } from 'igniteui-react-charts';
-import { IgrStackedBarSeries } from 'igniteui-react-charts';
-import { IgrStacked100BarSeries } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCategoryModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartStackedModule } from "@infragistics/igniteui-react-charts";
+import { IgrColumnFragmentModule } from "@infragistics/igniteui-react-charts"
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrStackedFragmentSeries } from "@infragistics/igniteui-react-charts";
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericXAxis } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryXAxis } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrStackedColumnSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStacked100ColumnSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStackedAreaSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStacked100AreaSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStackedLineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStacked100LineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStackedSplineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStacked100SplineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStackedBarSeries } from "@infragistics/igniteui-react-charts";
+import { IgrStacked100BarSeries } from "@infragistics/igniteui-react-charts";
 // legend's modules:
-import { IgrLegend } from 'igniteui-react-charts';
-import { IgrLegendModule } from 'igniteui-react-charts';
+import { IgrLegend } from "@infragistics/igniteui-react-charts";
+import { IgrLegendModule } from "@infragistics/igniteui-react-charts";
 
 IgrDataChartCoreModule.register();
 IgrDataChartCategoryModule.register();

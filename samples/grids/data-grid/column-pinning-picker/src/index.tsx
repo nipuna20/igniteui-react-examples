@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDataGridModule } from 'igniteui-react-grids';
-import { IgrDataGrid } from 'igniteui-react-grids';
-import { IgrImageColumn } from 'igniteui-react-grids';
-import { IgrTextColumn } from 'igniteui-react-grids';
-import { IgrNumericColumn } from 'igniteui-react-grids';
-import { IgrDateTimeColumn } from 'igniteui-react-grids';
+import { IgrDataGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrDataGrid } from "@infragistics/igniteui-react-grids";
+import { IgrImageColumn } from "@infragistics/igniteui-react-grids";
+import { IgrTextColumn } from "@infragistics/igniteui-react-grids";
+import { IgrNumericColumn } from "@infragistics/igniteui-react-grids";
+import { IgrDateTimeColumn } from "@infragistics/igniteui-react-grids";
 import { DataGridSharedData } from './DataGridSharedData';
-import { PinnedPositions } from 'igniteui-react-grids';
-import { IgrGridColumnOptionsModule } from 'igniteui-react-grids';
+import { PinnedPositions } from "@infragistics/igniteui-react-grids";
+import { IgrGridColumnOptionsModule } from "@infragistics/igniteui-react-grids";
 
 IgrDataGridModule.register();
 IgrGridColumnOptionsModule.register();

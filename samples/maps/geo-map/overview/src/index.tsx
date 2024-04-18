@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

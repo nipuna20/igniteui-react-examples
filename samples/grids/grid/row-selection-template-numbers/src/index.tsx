@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrCheckboxModule } from 'igniteui-react';
-import { IgrGrid, IgrColumn } from 'igniteui-react-grids';
-import { ComponentRenderer, WebGridDescriptionModule, WebCheckboxDescriptionModule } from 'igniteui-react-core';
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrCheckboxModule } from "@infragistics/igniteui-react";
+import { IgrGrid, IgrColumn } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebGridDescriptionModule, WebCheckboxDescriptionModule } from "@infragistics/igniteui-react-core";
 import { CustomersDataItem, CustomersData } from './CustomersData';
-import { IgrRowSelectorTemplateContext, IgrHeadSelectorTemplateContext } from 'igniteui-react-grids';
-import { IgrCheckbox } from 'igniteui-react';
+import { IgrRowSelectorTemplateContext, IgrHeadSelectorTemplateContext } from "@infragistics/igniteui-react-grids";
+import { IgrCheckbox } from "@infragistics/igniteui-react";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule,

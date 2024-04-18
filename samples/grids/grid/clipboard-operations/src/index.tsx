@@ -2,13 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrButton, IgrInput, IgrSwitch, IgrComponentBoolValueChangedEventArgs, IgrComponentValueChangedEventArgs } from 'igniteui-react';
-import { IgrGridBaseDirective, IgrGridModule, IgrColumnComponentEventArgs } from 'igniteui-react-grids';
-import { IgrGrid, IgrColumn } from 'igniteui-react-grids';
+import { IgrButton, IgrInput, IgrSwitch, IgrComponentBoolValueChangedEventArgs, IgrComponentValueChangedEventArgs } from "@infragistics/igniteui-react";
+import { IgrGridBaseDirective, IgrGridModule, IgrColumnComponentEventArgs } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrColumn } from "@infragistics/igniteui-react-grids";
 import { NwindData } from './NwindData';
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule

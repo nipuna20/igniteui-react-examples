@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrStepper, IgrStep, IgrStepperModule, StepperStepType, IgrRadio, IgrRadioGroup, IgrRadioModule, IgrRadioGroupModule, IgrComponentBoolValueChangedEventArgs } from 'igniteui-react';
+import { IgrStepper, IgrStep, IgrStepperModule, StepperStepType, IgrRadio, IgrRadioGroup, IgrRadioModule, IgrRadioGroupModule, IgrComponentBoolValueChangedEventArgs } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrStepperModule.register();

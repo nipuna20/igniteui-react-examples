@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrFinancialChartModule, IgrDataChartInteractivityModule, IgrDataLegendModule } from 'igniteui-react-charts';
-import { IgrDataLegend, IgrFinancialChart } from 'igniteui-react-charts';
+import { IgrFinancialChartModule, IgrDataChartInteractivityModule, IgrDataLegendModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataLegend, IgrFinancialChart } from "@infragistics/igniteui-react-charts";
 import { StockGoogleItem, StockGoogle } from './StockGoogle';
 
 const mods: any[] = [

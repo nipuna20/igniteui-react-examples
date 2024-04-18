@@ -2,22 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // axis modules:
-import { IgrCategoryAngleAxis } from 'igniteui-react-charts';
-import { IgrNumericRadiusAxis } from 'igniteui-react-charts';
+import { IgrCategoryAngleAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericRadiusAxis } from "@infragistics/igniteui-react-charts";
 // series modules:
-import { IgrRadialAreaSeries } from 'igniteui-react-charts';
-import { IgrRadialLineSeries } from 'igniteui-react-charts';
-import { IgrRadialPieSeries } from 'igniteui-react-charts';
-import { IgrRadialColumnSeries } from 'igniteui-react-charts';
+import { IgrRadialAreaSeries } from "@infragistics/igniteui-react-charts";
+import { IgrRadialLineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrRadialPieSeries } from "@infragistics/igniteui-react-charts";
+import { IgrRadialColumnSeries } from "@infragistics/igniteui-react-charts";
 // data chart's modules:
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartRadialCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartRadialModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartRadialCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartRadialModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 // legend's modules:
-import { IgrLegend } from 'igniteui-react-charts';
-import { IgrLegendModule } from 'igniteui-react-charts';
+import { IgrLegend } from "@infragistics/igniteui-react-charts";
+import { IgrLegendModule } from "@infragistics/igniteui-react-charts";
 import { SampleRadialData } from './SampleRadialData';
 
 IgrDataChartCoreModule.register();

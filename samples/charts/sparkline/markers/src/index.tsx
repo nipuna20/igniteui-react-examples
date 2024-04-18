@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrSparklineModule } from 'igniteui-react-charts';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrSparkline } from 'igniteui-react-charts';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, SparklineDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrSparklineModule } from "@infragistics/igniteui-react-charts";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrSparkline } from "@infragistics/igniteui-react-charts";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, SparklineDescriptionModule } from "@infragistics/igniteui-react-core";
 import { SparklineProfitDataItem, SparklineProfitData } from './SparklineProfitData';
 
 import 'igniteui-webcomponents/themes/light/bootstrap.css';

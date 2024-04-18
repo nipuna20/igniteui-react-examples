@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './DockManagerStyles.css';
-import { IgcDockManagerComponent, IgcContentPane } from "igniteui-dockmanager";
-import { IgcDockManagerPaneType, IgcSplitPaneOrientation } from "igniteui-dockmanager";
-import { defineCustomElements } from "igniteui-dockmanager/loader";
+import { IgcDockManagerComponent, IgcContentPane } from "@infragistics/igniteui-dockmanager";
+import { IgcDockManagerPaneType, IgcSplitPaneOrientation } from "@infragistics/igniteui-dockmanager";
+import { defineCustomElements } from "@infragistics/igniteui-dockmanager/loader";
 
 /* eslint-disable */
 declare global {

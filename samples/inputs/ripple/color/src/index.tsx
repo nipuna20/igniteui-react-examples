@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrRipple, IgrRippleModule, IgrButton, IgrButtonModule } from 'igniteui-react';
+import { IgrRipple, IgrRippleModule, IgrButton, IgrButtonModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrRippleModule.register();

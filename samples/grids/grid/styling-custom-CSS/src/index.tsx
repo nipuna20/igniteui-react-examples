@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import { LocalDataItem, LocalData } from './SampleData';
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrGrid, IgrColumn } from 'igniteui-react-grids';
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrColumn } from "@infragistics/igniteui-react-grids";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule

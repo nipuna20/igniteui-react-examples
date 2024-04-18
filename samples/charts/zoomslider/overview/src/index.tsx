@@ -1,24 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrBubbleSeries, IgrSeriesViewer } from 'igniteui-react-charts';
-import { IgrAnnotationLayer } from 'igniteui-react-charts';
-import { IgrDataChartAnnotationModule } from 'igniteui-react-charts';
-import { IgrDataChartCategoryModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrDataChart } from 'igniteui-react-charts';
-// import { IgrCrosshairLayer } from 'igniteui-react-charts';
-import { IgrCrosshairLayerModule } from 'igniteui-react-charts';
-import { IgrNumberAbbreviatorModule } from 'igniteui-react-charts';
-import { IgrNumericXAxis } from 'igniteui-react-charts';
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrSizeScale } from 'igniteui-react-charts';
-import { MarkerType } from 'igniteui-react-charts';
-import { IgRect } from 'igniteui-react-core';
-import { IgrZoomSlider } from 'igniteui-react-charts';
-import { IgrChartCursorEventArgs } from 'igniteui-react-charts';
-import { IgrZoomSliderResolvingAxisValueEventArgs } from 'igniteui-react-charts'
-import { IgrRectChangedEventArgs } from 'igniteui-react-core';
+import { IgrBubbleSeries, IgrSeriesViewer } from "@infragistics/igniteui-react-charts";
+import { IgrAnnotationLayer } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartAnnotationModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCategoryModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+// import { IgrCrosshairLayer } from "@infragistics/igniteui-react-charts";
+import { IgrCrosshairLayerModule } from "@infragistics/igniteui-react-charts";
+import { IgrNumberAbbreviatorModule } from "@infragistics/igniteui-react-charts";
+import { IgrNumericXAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrSizeScale } from "@infragistics/igniteui-react-charts";
+import { MarkerType } from "@infragistics/igniteui-react-charts";
+import { IgRect } from "@infragistics/igniteui-react-core";
+import { IgrZoomSlider } from "@infragistics/igniteui-react-charts";
+import { IgrChartCursorEventArgs } from "@infragistics/igniteui-react-charts";
+import { IgrZoomSliderResolvingAxisValueEventArgs } from "@infragistics/igniteui-react-charts"
+import { IgrRectChangedEventArgs } from "@infragistics/igniteui-react-core";
 import { SampleScatterStats } from './SampleScatterStats';
 
 IgrDataChartCategoryModule.register();

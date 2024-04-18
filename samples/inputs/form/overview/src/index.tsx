@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrForm, IgrFormModule, IgrCheckbox, IgrCheckboxModule, IgrInput, IgrInputModule, IgrButton, IgrButtonModule } from 'igniteui-react';
+import { IgrForm, IgrFormModule, IgrCheckbox, IgrCheckboxModule, IgrInput, IgrInputModule, IgrButton, IgrButtonModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrFormModule.register();

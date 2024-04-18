@@ -7,7 +7,7 @@ import {
   IgrSelect,
   IgrSelectItem,
   IgrIcon,
-} from "igniteui-react";
+} from "@infragistics/igniteui-react";
 import "./index.css";
 import "igniteui-webcomponents/themes/light/bootstrap.css";
 

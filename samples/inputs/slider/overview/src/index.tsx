@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrSlider, IgrSliderModule, IgrRangeSlider, IgrRangeSliderModule } from 'igniteui-react';
+import { IgrSlider, IgrSliderModule, IgrRangeSlider, IgrRangeSliderModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 import './SliderOverviewStyle.css';
 

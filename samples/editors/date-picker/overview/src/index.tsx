@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDatePicker, IgrDatePickerModule } from 'igniteui-react-inputs';
+import { IgrDatePicker, IgrDatePickerModule } from "@infragistics/igniteui-react-inputs";
 
 IgrDatePickerModule.register();
 

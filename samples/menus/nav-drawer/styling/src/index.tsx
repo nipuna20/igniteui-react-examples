@@ -5,7 +5,7 @@ import './NavDrawerStyling.css';
 import {
     IgrNavDrawer, IgrNavDrawerHeaderItem, IgrNavDrawerItem, IgrIcon, IgrNavDrawerModule, IgrIconModule,
     IgrIconButton, IgrIconButtonModule
-} from 'igniteui-react';
+} from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrNavDrawerModule.register();

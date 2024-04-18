@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './IconSizing.css';
-import { IgrIcon, IgrIconModule } from 'igniteui-react';
+import { IgrIcon, IgrIconModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrIconModule.register();

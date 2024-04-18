@@ -1,4 +1,4 @@
-import { IgrGeographicMap } from 'igniteui-react-maps';
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
 
 export enum MapRegion {
     Caribbean = "Caribbean",

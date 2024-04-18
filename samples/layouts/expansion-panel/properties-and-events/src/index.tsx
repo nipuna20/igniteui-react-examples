@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './ExpansionPanelPropsAndEvents.css';
-import { IgrExpansionPanel, IgrExpansionPanelModule } from 'igniteui-react';
+import { IgrExpansionPanel, IgrExpansionPanelModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrExpansionPanelModule.register();

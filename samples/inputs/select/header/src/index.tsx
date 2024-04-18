@@ -7,7 +7,7 @@ import {
   IgrSelect,
   IgrSelectItem,
   IgrSelectHeader
-} from "igniteui-react";
+} from "@infragistics/igniteui-react";
 import "igniteui-webcomponents/themes/light/bootstrap.css";
 
 IgrSelectModule.register();

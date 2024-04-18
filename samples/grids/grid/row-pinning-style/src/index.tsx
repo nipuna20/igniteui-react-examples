@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrGridModule, IgrActionStripModule } from 'igniteui-react-grids';
-import { IgrGrid, IgrPinningConfig, RowPinningPosition, IgrColumn, IgrActionStrip, IgrGridPinningActions } from 'igniteui-react-grids';
-import { ComponentRenderer, WebGridDescriptionModule, WebActionStripDescriptionModule } from 'igniteui-react-core';
+import { IgrGridModule, IgrActionStripModule } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrPinningConfig, RowPinningPosition, IgrColumn, IgrActionStrip, IgrGridPinningActions } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebGridDescriptionModule, WebActionStripDescriptionModule } from "@infragistics/igniteui-react-core";
 import CustomersDataLocal from './CustomersDataLocal.json';
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule,

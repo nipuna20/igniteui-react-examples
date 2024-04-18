@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { MapUtils, MapRegion } from './MapUtils';
 import { EsriUtility, EsriStyle } from './EsriUtility';
-import { IgrArcGISOnlineMapImagery } from 'igniteui-react-maps';
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrArcGISOnlineMapImagery } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

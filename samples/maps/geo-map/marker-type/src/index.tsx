@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import WorldLocations from "./WorldLocations";
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrGeographicSymbolSeries } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { MarkerType } from 'igniteui-react-charts';
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicSymbolSeries } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { MarkerType } from "@infragistics/igniteui-react-charts";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import WorldLocations from "./WorldLocations";
 import WorldUtils from "./WorldUtils"
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrGeographicProportionalSymbolSeries } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrValueBrushScale } from 'igniteui-react-charts';
-// import { IgrCustomPaletteBrushScale } from 'igniteui-react-charts';
-import { IgrSizeScale } from 'igniteui-react-charts';
-import { IgrDataContext } from 'igniteui-react-core';
-import { MarkerType } from 'igniteui-react-charts';
-// import { BrushSelectionMode } from 'igniteui-react-charts';
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicProportionalSymbolSeries } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrValueBrushScale } from "@infragistics/igniteui-react-charts";
+// import { IgrCustomPaletteBrushScale } from "@infragistics/igniteui-react-charts";
+import { IgrSizeScale } from "@infragistics/igniteui-react-charts";
+import { IgrDataContext } from "@infragistics/igniteui-react-core";
+import { MarkerType } from "@infragistics/igniteui-react-charts";
+// import { BrushSelectionMode } from "@infragistics/igniteui-react-charts";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

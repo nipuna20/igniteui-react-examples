@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrHierarchicalGridModule } from 'igniteui-react-grids';
-import { IgrHierarchicalGrid, IgrColumn, IgrRowIsland } from 'igniteui-react-grids';
+import { IgrHierarchicalGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrHierarchicalGrid, IgrColumn, IgrRowIsland } from "@infragistics/igniteui-react-grids";
 import HierarchicalCustomers from './HierarchicalCustomers.json';
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrHierarchicalGridModule

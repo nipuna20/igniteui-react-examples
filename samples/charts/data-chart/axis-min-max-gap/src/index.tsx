@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrCategoryHighlightLayer, IgrColumnSeries, IgrDataToolTipLayer } from 'igniteui-react-charts';
+import { IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrCategoryHighlightLayer, IgrColumnSeries, IgrDataToolTipLayer } from "@infragistics/igniteui-react-charts";
 import { TemperatureAverageDataItem, TemperatureAverageData } from './TemperatureAverageData';
 
 const mods: any[] = [

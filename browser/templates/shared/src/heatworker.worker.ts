@@ -1,4 +1,4 @@
-import { HeatTileGeneratorWebWorker } from 'igniteui-react-core';
+import { HeatTileGeneratorWebWorker } from "@infragistics/igniteui-react-core";
 
 let worker: Worker = self as any;
 worker.onmessage = HeatTileGeneratorWebWorker.onmessage;

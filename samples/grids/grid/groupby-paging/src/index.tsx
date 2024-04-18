@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrGrid, IgrGroupingExpression, SortingDirection, IgrPaginator, IgrColumn } from 'igniteui-react-grids';
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrGroupingExpression, SortingDirection, IgrPaginator, IgrColumn } from "@infragistics/igniteui-react-grids";
 import { InvoicesWorldDataItem, InvoicesWorldData } from './InvoicesWorldData';
-import { IgrGroupByRowTemplateContext } from 'igniteui-react-grids';
-import { IgrBadge } from 'igniteui-react';
+import { IgrGroupByRowTemplateContext } from "@infragistics/igniteui-react-grids";
+import { IgrBadge } from "@infragistics/igniteui-react";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule

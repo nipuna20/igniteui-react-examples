@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { DataGridSharedData } from './DataGridSharedData';
-import { IgrDataGridModule } from 'igniteui-react-grids';
-import { IgrDataGrid } from 'igniteui-react-grids';
-import { IgrColumnGroupDescription } from 'igniteui-react-grids';
-import { IgrColumnSummaryDescription } from 'igniteui-react-grids'
-import { IgrProvideCalculatorEventArgs } from 'igniteui-react-core';
-import { IgrTextColumn } from 'igniteui-react-grids';
-import { IgrNumericColumn } from 'igniteui-react-grids';
-import { IgrDateTimeColumn } from 'igniteui-react-grids';
-import { DataSourceSummaryOperand, SummaryCalculator, DefaultSummaryResult, IDataSource, ISummaryResult } from 'igniteui-react-core';
-import { IgrGridColumnOptionsModule } from 'igniteui-react-grids';
+import { IgrDataGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrDataGrid } from "@infragistics/igniteui-react-grids";
+import { IgrColumnGroupDescription } from "@infragistics/igniteui-react-grids";
+import { IgrColumnSummaryDescription } from "@infragistics/igniteui-react-grids"
+import { IgrProvideCalculatorEventArgs } from "@infragistics/igniteui-react-core";
+import { IgrTextColumn } from "@infragistics/igniteui-react-grids";
+import { IgrNumericColumn } from "@infragistics/igniteui-react-grids";
+import { IgrDateTimeColumn } from "@infragistics/igniteui-react-grids";
+import { DataSourceSummaryOperand, SummaryCalculator, DefaultSummaryResult, IDataSource, ISummaryResult } from "@infragistics/igniteui-react-core";
+import { IgrGridColumnOptionsModule } from "@infragistics/igniteui-react-grids";
 
 IgrDataGridModule.register();
 IgrGridColumnOptionsModule.register();

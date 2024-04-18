@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrGrid, IgrPaginator, IgrPaginatorResourceStrings, IgrColumn } from 'igniteui-react-grids';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, WebGridDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrPaginator, IgrPaginatorResourceStrings, IgrColumn } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, WebGridDescriptionModule } from "@infragistics/igniteui-react-core";
 import { CustomersDataItem, CustomersData } from './CustomersData';
-import { IgrRowSelectorTemplateContext, IgrHeadSelectorTemplateContext } from 'igniteui-react-grids';
+import { IgrRowSelectorTemplateContext, IgrHeadSelectorTemplateContext } from "@infragistics/igniteui-react-grids";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrPropertyEditorPanelModule,

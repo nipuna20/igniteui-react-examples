@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { IgrSelectModule, IgrSelectItemModule, IgrSelect, IgrSelectItem } from "igniteui-react";
+import { IgrSelectModule, IgrSelectItemModule, IgrSelect, IgrSelectItem } from "@infragistics/igniteui-react";
 import "igniteui-webcomponents/themes/light/bootstrap.css";
 
 IgrSelectModule.register();

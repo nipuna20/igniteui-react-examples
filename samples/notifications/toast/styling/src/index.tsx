@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './ToastStyling.css';
-import { IgrButton, IgrToast, IgrButtonModule, IgrToastModule } from 'igniteui-react';
+import { IgrButton, IgrToast, IgrButtonModule, IgrToastModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrButtonModule.register();

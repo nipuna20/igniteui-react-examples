@@ -1,11 +1,11 @@
 import { saveAs } from "file-saver";
-import { Workbook } from 'igniteui-react-excel';
-import { WorkbookFormat } from 'igniteui-react-excel';
-import { WorkbookSaveOptions } from 'igniteui-react-excel';
-import { WorkbookLoadOptions } from 'igniteui-react-excel';
-import { IgrExcelXlsxModule } from 'igniteui-react-excel';
-import { IgrExcelCoreModule } from 'igniteui-react-excel';
-import { IgrExcelModule } from 'igniteui-react-excel';
+import { Workbook } from "@infragistics/igniteui-react-excel";
+import { WorkbookFormat } from "@infragistics/igniteui-react-excel";
+import { WorkbookSaveOptions } from "@infragistics/igniteui-react-excel";
+import { WorkbookLoadOptions } from "@infragistics/igniteui-react-excel";
+import { IgrExcelXlsxModule } from "@infragistics/igniteui-react-excel";
+import { IgrExcelCoreModule } from "@infragistics/igniteui-react-excel";
+import { IgrExcelModule } from "@infragistics/igniteui-react-excel";
 
 IgrExcelCoreModule.register();
 IgrExcelModule.register();

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrItemLegendModule, IgrPieChartModule } from 'igniteui-react-charts';
-import { IgrItemLegend, IgrPieChart } from 'igniteui-react-charts';
+import { IgrItemLegendModule, IgrPieChartModule } from "@infragistics/igniteui-react-charts";
+import { IgrItemLegend, IgrPieChart } from "@infragistics/igniteui-react-charts";
 import { EnergyGlobalDemandItem, EnergyGlobalDemand } from './EnergyGlobalDemand';
 
 const mods: any[] = [

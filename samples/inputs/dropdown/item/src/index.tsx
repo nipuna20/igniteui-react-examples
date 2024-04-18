@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDropdown, IgrButton, IgrDropdownItem, IgrIcon, IgrDropdownModule, IgrButtonModule, IgrDropdownItemModule, IgrIconModule } from 'igniteui-react';
+import { IgrDropdown, IgrButton, IgrDropdownItem, IgrIcon, IgrDropdownModule, IgrButtonModule, IgrDropdownItemModule, IgrIconModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrDropdownModule.register();

@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrHierarchicalGridModule, IgrColumnGroupModule } from 'igniteui-react-grids';
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrHierarchicalGrid, IgrColumn, IgrColumnGroup, IgrRowIsland } from 'igniteui-react-grids';
-import { ComponentRenderer, WebHierarchicalGridDescriptionModule, WebColumnGroupDescriptionModule, PropertyEditorPanelDescriptionModule } from 'igniteui-react-core';
+import { IgrHierarchicalGridModule, IgrColumnGroupModule } from "@infragistics/igniteui-react-grids";
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrHierarchicalGrid, IgrColumn, IgrColumnGroup, IgrRowIsland } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebHierarchicalGridDescriptionModule, WebColumnGroupDescriptionModule, PropertyEditorPanelDescriptionModule } from "@infragistics/igniteui-react-core";
 import HierarchicalCustomers from './HierarchicalCustomers.json';
-import { IgrPropertyEditorPropertyDescriptionButtonClickEventArgs } from 'igniteui-react-layouts';
+import { IgrPropertyEditorPropertyDescriptionButtonClickEventArgs } from "@infragistics/igniteui-react-layouts";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 const mods: any[] = [

@@ -2,19 +2,19 @@ import React, { KeyboardEvent, useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { IgrGridModule, IgrGroupByRowTemplateContext, SortingDirection } from "igniteui-react-grids";
-import { IgrGrid, IgrColumn } from "igniteui-react-grids";
+import { IgrGridModule, IgrGroupByRowTemplateContext, SortingDirection } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrColumn } from "@infragistics/igniteui-react-grids";
 import { InvoicesWorldData } from "./InvoicesWorldData";
 
-import "igniteui-react-grids/grids/combined";
-import "igniteui-react-grids/grids/themes/light/bootstrap.css";
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 import {
   IgrBadge,
   IgrButton,
   IgrDropdown,
   IgrDropdownItem,
   IgrDropdownModule
-} from "igniteui-react";
+} from "@infragistics/igniteui-react";
 
 const mods: any[] = [IgrGridModule, IgrDropdownModule];
 mods.forEach((m) => m.register());

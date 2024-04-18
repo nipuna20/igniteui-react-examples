@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrHierarchicalGridModule } from 'igniteui-react-grids';
-import { IgrSelectModule } from 'igniteui-react';
-import { IgrHierarchicalGrid, IgrColumn, IgrRowIsland } from 'igniteui-react-grids';
-import { ComponentRenderer, WebHierarchicalGridDescriptionModule, WebSelectDescriptionModule } from 'igniteui-react-core';
+import { IgrHierarchicalGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrSelectModule } from "@infragistics/igniteui-react";
+import { IgrHierarchicalGrid, IgrColumn, IgrRowIsland } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebHierarchicalGridDescriptionModule, WebSelectDescriptionModule } from "@infragistics/igniteui-react-core";
 import HGridDndData from './HGridDndData.json';
-import { IgrCellTemplateContext } from 'igniteui-react-grids';
-import { IgrSelect, IgrSelectItem } from 'igniteui-react';
+import { IgrCellTemplateContext } from "@infragistics/igniteui-react-grids";
+import { IgrSelect, IgrSelectItem } from "@infragistics/igniteui-react";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrHierarchicalGridModule,

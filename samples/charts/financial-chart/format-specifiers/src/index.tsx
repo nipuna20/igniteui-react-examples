@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrFinancialChartModule, IgrDataChartInteractivityModule, IgrDataLegendModule } from 'igniteui-react-charts';
-import { IgrNumberFormatSpecifierModule, IgrDateTimeFormatSpecifierModule } from 'igniteui-react-core';
-import { IgrDataLegend, IgrFinancialChart } from 'igniteui-react-charts';
-import { IgrNumberFormatSpecifier, IgrDateTimeFormatSpecifier } from 'igniteui-react-core';
+import { IgrFinancialChartModule, IgrDataChartInteractivityModule, IgrDataLegendModule } from "@infragistics/igniteui-react-charts";
+import { IgrNumberFormatSpecifierModule, IgrDateTimeFormatSpecifierModule } from "@infragistics/igniteui-react-core";
+import { IgrDataLegend, IgrFinancialChart } from "@infragistics/igniteui-react-charts";
+import { IgrNumberFormatSpecifier, IgrDateTimeFormatSpecifier } from "@infragistics/igniteui-react-core";
 import { MultipleStocks } from './MultipleStocks';
 
 const mods: any[] = [

@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { LocalDataSource } from 'igniteui-react-core';
-import { SortDescription } from 'igniteui-react-core';
-import { IgrColumnSortDescriptionCollection } from 'igniteui-react-grids';
-import { IgrColumnGroupDescriptionCollection } from 'igniteui-react-grids';
-import { IgrFilterExpressionCollection } from 'igniteui-react-core';
+import { LocalDataSource } from "@infragistics/igniteui-react-core";
+import { SortDescription } from "@infragistics/igniteui-react-core";
+import { IgrColumnSortDescriptionCollection } from "@infragistics/igniteui-react-grids";
+import { IgrColumnGroupDescriptionCollection } from "@infragistics/igniteui-react-grids";
+import { IgrFilterExpressionCollection } from "@infragistics/igniteui-react-core";
 import './DataGridPager.css';
 
 /**

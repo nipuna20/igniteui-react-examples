@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrToolbarModule } from 'igniteui-react-layouts';
-import { IgrDataChartToolbarModule, IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule, IgrDataChartCategoryTrendLineModule } from 'igniteui-react-charts';
-import { IgrToolbar, IgrToolActionCheckbox, IgrToolActionLabel, IgrToolActionIconMenu } from 'igniteui-react-layouts';
-import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrLineSeries } from 'igniteui-react-charts';
+import { IgrToolbarModule } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChartToolbarModule, IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule, IgrDataChartCategoryTrendLineModule } from "@infragistics/igniteui-react-charts";
+import { IgrToolbar, IgrToolActionCheckbox, IgrToolActionLabel, IgrToolActionIconMenu } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrLineSeries } from "@infragistics/igniteui-react-charts";
 import { CountryRenewableElectricityItem, CountryRenewableElectricity } from './CountryRenewableElectricity';
-import { IgrToolCommandEventArgs } from 'igniteui-react-layouts';
-import { IgrSeries, IgrDataToolTipLayer } from 'igniteui-react-charts';
+import { IgrToolCommandEventArgs } from "@infragistics/igniteui-react-layouts";
+import { IgrSeries, IgrDataToolTipLayer } from "@infragistics/igniteui-react-charts";
 
 const mods: any[] = [
     IgrToolbarModule,

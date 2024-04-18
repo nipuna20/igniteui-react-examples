@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrSelectModule } from 'igniteui-react';
-import { IgrGrid, IgrColumn } from 'igniteui-react-grids';
-import { ComponentRenderer, WebGridDescriptionModule, WebSelectDescriptionModule } from 'igniteui-react-core';
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrSelectModule } from "@infragistics/igniteui-react";
+import { IgrGrid, IgrColumn } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebGridDescriptionModule, WebSelectDescriptionModule } from "@infragistics/igniteui-react-core";
 import { WebGridCellEditSampleRoleplayItem, WebGridCellEditSampleRoleplay } from './WebGridCellEditSampleRoleplay';
-import { IgrCellTemplateContext } from 'igniteui-react-grids';
-import { IgrSelect, IgrSelectItem } from 'igniteui-react';
+import { IgrCellTemplateContext } from "@infragistics/igniteui-react-grids";
+import { IgrSelect, IgrSelectItem } from "@infragistics/igniteui-react";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule,

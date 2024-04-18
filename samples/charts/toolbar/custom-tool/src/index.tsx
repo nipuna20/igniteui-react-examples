@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrToolbarModule } from 'igniteui-react-layouts';
-import { IgrToolbar, IgrToolActionLabel } from 'igniteui-react-layouts';
-import { IgrToolAction, IgrToolCommandEventArgs } from 'igniteui-react-layouts';
+import { IgrToolbarModule } from "@infragistics/igniteui-react-layouts";
+import { IgrToolbar, IgrToolActionLabel } from "@infragistics/igniteui-react-layouts";
+import { IgrToolAction, IgrToolCommandEventArgs } from "@infragistics/igniteui-react-layouts";
 
 const mods: any[] = [
     IgrToolbarModule

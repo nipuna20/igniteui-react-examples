@@ -2,20 +2,20 @@ import React, { ReactElement, version } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // importing axis' modules:
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrCategoryXAxis } from 'igniteui-react-charts';
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryXAxis } from "@infragistics/igniteui-react-charts";
 // importing category series' modules:
-import { IgrColumnSeries } from 'igniteui-react-charts';
+import { IgrColumnSeries } from "@infragistics/igniteui-react-charts";
 // importing data chart's modules:
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartCategoryModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrNumberAbbreviatorModule } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCategoryModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrNumberAbbreviatorModule } from "@infragistics/igniteui-react-charts";
 
-import { IgrChartMouseEventArgs } from 'igniteui-react-charts';
+import { IgrChartMouseEventArgs } from "@infragistics/igniteui-react-charts";
 import { SampleCategoryData } from './SampleCategoryData';
-import { IgrDataContext } from 'igniteui-react-core';
+import { IgrDataContext } from "@infragistics/igniteui-react-core";
 
 IgrDataChartCoreModule.register();
 IgrDataChartCategoryModule.register();

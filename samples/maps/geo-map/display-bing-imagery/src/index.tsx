@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { MapUtils, MapRegion } from './MapUtils';
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrBingMapsMapImagery } from 'igniteui-react-maps';
-import { BingMapsImageryStyle } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule, IgrSeriesViewer } from 'igniteui-react-charts';
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrBingMapsMapImagery } from "@infragistics/igniteui-react-maps";
+import { BingMapsImageryStyle } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule, IgrSeriesViewer } from "@infragistics/igniteui-react-charts";
 // for handling of maps events
-import { IgrRectChangedEventArgs } from 'igniteui-react-core';
+import { IgrRectChangedEventArgs } from "@infragistics/igniteui-react-core";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

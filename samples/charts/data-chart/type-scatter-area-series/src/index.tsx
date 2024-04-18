@@ -2,18 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // types of axis:
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrNumericXAxis } from 'igniteui-react-charts';
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericXAxis } from "@infragistics/igniteui-react-charts";
 // elements of scatter series:
-import { IgrScatterAreaSeries } from 'igniteui-react-charts';
-import { IgrCustomPaletteColorScale } from 'igniteui-react-charts';
-import { ColorScaleInterpolationMode } from 'igniteui-react-charts';
+import { IgrScatterAreaSeries } from "@infragistics/igniteui-react-charts";
+import { IgrCustomPaletteColorScale } from "@infragistics/igniteui-react-charts";
+import { ColorScaleInterpolationMode } from "@infragistics/igniteui-react-charts";
 // data chart's modules:
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartScatterCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartScatterModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartScatterCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartScatterModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 import { SampleScatterData } from './SampleScatterData';
 
 IgrDataChartCoreModule.register();

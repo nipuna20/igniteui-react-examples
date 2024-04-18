@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrGridModule, IgrPaginatorModule } from 'igniteui-react-grids';
-import { IgrGrid, IgrPaginator, IgrColumn } from 'igniteui-react-grids';
-import { ComponentRenderer, WebGridDescriptionModule, WebPaginatorDescriptionModule } from 'igniteui-react-core';
+import { IgrGridModule, IgrPaginatorModule } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrPaginator, IgrColumn } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebGridDescriptionModule, WebPaginatorDescriptionModule } from "@infragistics/igniteui-react-core";
 import { NwindDataItem, NwindDataItem_LocationsItem, NwindData } from './NwindData';
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule,

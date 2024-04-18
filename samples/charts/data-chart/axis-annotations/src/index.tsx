@@ -1,23 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrAnnotationLayerProxyModule } from 'igniteui-react-charts';
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartCategoryModule } from 'igniteui-react-charts';
-import { IgrDataChartAnnotationModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrColumnFragmentModule } from 'igniteui-react-charts'
-import { IgrValueOverlayModule } from 'igniteui-react-charts';
-import { IgrFinalValueLayerModule } from 'igniteui-react-charts';
-import { IgrCrosshairLayerModule } from 'igniteui-react-charts';
-import { IgrColumnSeries } from 'igniteui-react-charts';
-import { IgrCrosshairLayer } from 'igniteui-react-charts';
-import { IgrFinalValueLayer } from 'igniteui-react-charts';
-import { IgrValueOverlay } from 'igniteui-react-charts';
-import { IgrSeries } from 'igniteui-react-charts';
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrCategoryXAxis } from 'igniteui-react-charts';
+import { IgrAnnotationLayerProxyModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCategoryModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartAnnotationModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrColumnFragmentModule } from "@infragistics/igniteui-react-charts"
+import { IgrValueOverlayModule } from "@infragistics/igniteui-react-charts";
+import { IgrFinalValueLayerModule } from "@infragistics/igniteui-react-charts";
+import { IgrCrosshairLayerModule } from "@infragistics/igniteui-react-charts";
+import { IgrColumnSeries } from "@infragistics/igniteui-react-charts";
+import { IgrCrosshairLayer } from "@infragistics/igniteui-react-charts";
+import { IgrFinalValueLayer } from "@infragistics/igniteui-react-charts";
+import { IgrValueOverlay } from "@infragistics/igniteui-react-charts";
+import { IgrSeries } from "@infragistics/igniteui-react-charts";
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryXAxis } from "@infragistics/igniteui-react-charts";
 
 IgrDataChartCoreModule.register();
 IgrDataChartCategoryModule.register();

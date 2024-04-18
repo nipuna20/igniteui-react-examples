@@ -8,17 +8,17 @@ import {
   IgrGridToolbarExporter,
   IgrGridToolbarTitle,
   IgrHierarchicalGridModule,
-} from "igniteui-react-grids";
+} from "@infragistics/igniteui-react-grids";
 import {
   IgrHierarchicalGrid,
   IgrColumn,
   IgrRowIsland,
-} from "igniteui-react-grids";
-import { IgrButton } from "igniteui-react";
+} from "@infragistics/igniteui-react-grids";
+import { IgrButton } from "@infragistics/igniteui-react";
 import { SingersData } from "./SingersData";
 
-import "igniteui-react-grids/grids/combined";
-import "igniteui-react-grids/grids/themes/light/bootstrap.css";
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 IgrHierarchicalGridModule.register();
 

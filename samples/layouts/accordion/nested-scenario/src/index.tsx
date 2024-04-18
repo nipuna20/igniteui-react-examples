@@ -5,7 +5,7 @@ import './AccordionNestedScenario.css';
 import {
     IgrAccordion, IgrExpansionPanel, IgrSwitch, IgrAccordionModule, IgrExpansionPanelModule, IgrSwitchModule,
     IgrComponentBoolValueChangedEventArgs
-} from 'igniteui-react';
+} from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrAccordionModule.register();

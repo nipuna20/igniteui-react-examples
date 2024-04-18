@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDataContext } from 'igniteui-react-core';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicShapeSeries } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrDataContext } from "@infragistics/igniteui-react-core";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicShapeSeries } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

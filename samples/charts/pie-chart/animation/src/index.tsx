@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrPieChart } from 'igniteui-react-charts';
-import { IgrPieChartModule } from 'igniteui-react-charts';
+import { IgrPieChart } from "@infragistics/igniteui-react-charts";
+import { IgrPieChartModule } from "@infragistics/igniteui-react-charts";
 
 IgrPieChartModule.register();
 

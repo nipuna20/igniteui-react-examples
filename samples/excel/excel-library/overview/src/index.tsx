@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { ExcelUtility } from './ExcelUtility';
 // import { ExcelSharedData } from './ExcelSharedData';
-import { IgrExcelModule } from 'igniteui-react-excel';
-import { Workbook } from 'igniteui-react-excel';
-import { Worksheet } from 'igniteui-react-excel';
-import { WorkbookFormat } from 'igniteui-react-excel';
+import { IgrExcelModule } from "@infragistics/igniteui-react-excel";
+import { Workbook } from "@infragistics/igniteui-react-excel";
+import { Worksheet } from "@infragistics/igniteui-react-excel";
+import { WorkbookFormat } from "@infragistics/igniteui-react-excel";
 
 IgrExcelModule.register();
 

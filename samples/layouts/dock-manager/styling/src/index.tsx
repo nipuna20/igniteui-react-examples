@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './DockManagerStyles.css';
-import { IgcDockManagerComponent, IgcContentPane, IgcDockManagerLayout, IgcSplitPane, IgcTabGroupPane } from "igniteui-dockmanager";
-import { IgcDockManagerPaneType, IgcSplitPaneOrientation } from "igniteui-dockmanager";
-import { defineCustomElements } from "igniteui-dockmanager/loader";
-import { IgrAvatar, IgrButton, IgrCard, IgrCardActions, IgrCardContent, IgrIcon, IgrIconButton, IgrList, IgrListItem } from "igniteui-react" ;
-import { IgrAvatarModule, IgrButtonModule, IgrCardModule, IgrIconModule, IgrListModule } from "igniteui-react";
+import { IgcDockManagerComponent, IgcContentPane, IgcDockManagerLayout, IgcSplitPane, IgcTabGroupPane } from "@infragistics/igniteui-dockmanager";
+import { IgcDockManagerPaneType, IgcSplitPaneOrientation } from "@infragistics/igniteui-dockmanager";
+import { defineCustomElements } from "@infragistics/igniteui-dockmanager/loader";
+import { IgrAvatar, IgrButton, IgrCard, IgrCardActions, IgrCardContent, IgrIcon, IgrIconButton, IgrList, IgrListItem } from "@infragistics/igniteui-react" ;
+import { IgrAvatarModule, IgrButtonModule, IgrCardModule, IgrIconModule, IgrListModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrAvatarModule.register();

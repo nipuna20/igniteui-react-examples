@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css'; // styles shared between all samples
 
 
-import { IgrDatePicker, IgrDatePickerModule } from 'igniteui-react-inputs';
+import { IgrDatePicker, IgrDatePickerModule } from "@infragistics/igniteui-react-inputs";
 
 IgrDatePickerModule.register();
 

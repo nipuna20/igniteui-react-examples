@@ -2,18 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrBadgeModule } from 'igniteui-react';
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrGrid, IgrColumn, IgrColumnPipeArgs } from 'igniteui-react-grids';
-import { ComponentRenderer, WebGridDescriptionModule, PropertyEditorPanelDescriptionModule } from 'igniteui-react-core';
+import { IgrBadgeModule } from "@infragistics/igniteui-react";
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrGrid, IgrColumn, IgrColumnPipeArgs } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebGridDescriptionModule, PropertyEditorPanelDescriptionModule } from "@infragistics/igniteui-react-core";
 import { FinancialDataAllItem, FinancialDataAll } from './FinancialDataAll';
-import { IgrBadge } from 'igniteui-react';
-import { IgrCellTemplateContext } from 'igniteui-react-grids';
+import { IgrBadge } from "@infragistics/igniteui-react";
+import { IgrCellTemplateContext } from "@infragistics/igniteui-react-grids";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 const mods: any[] = [

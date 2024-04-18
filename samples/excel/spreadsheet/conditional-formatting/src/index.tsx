@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { ExcelUtility } from './ExcelUtility';
-import { IgrExcelXlsxModule } from 'igniteui-react-excel';
-import { IgrExcelCoreModule } from 'igniteui-react-excel';
-import { IgrExcelModule } from 'igniteui-react-excel';
-import { IgrSpreadsheetModule } from 'igniteui-react-spreadsheet';
-import { IgrSpreadsheet } from 'igniteui-react-spreadsheet';
+import { IgrExcelXlsxModule } from "@infragistics/igniteui-react-excel";
+import { IgrExcelCoreModule } from "@infragistics/igniteui-react-excel";
+import { IgrExcelModule } from "@infragistics/igniteui-react-excel";
+import { IgrSpreadsheetModule } from "@infragistics/igniteui-react-spreadsheet";
+import { IgrSpreadsheet } from "@infragistics/igniteui-react-spreadsheet";
 
 IgrExcelCoreModule.register();
 IgrExcelModule.register();

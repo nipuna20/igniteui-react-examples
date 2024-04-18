@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrSparklineModule } from 'igniteui-react-charts';
-import { IgrSparkline } from 'igniteui-react-charts';
+import { IgrSparklineModule } from "@infragistics/igniteui-react-charts";
+import { IgrSparkline } from "@infragistics/igniteui-react-charts";
 import { SparklineMixedDataItem, SparklineMixedData } from './SparklineMixedData';
 
 const mods: any[] = [

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { ExcelUtility } from './ExcelUtility';
-import { IgrExcelModule } from 'igniteui-react-excel';
-import { Workbook } from 'igniteui-react-excel';
-import { Worksheet } from 'igniteui-react-excel';
-import { WorkbookFormat } from 'igniteui-react-excel';
-import { Color } from 'igniteui-react-core';
+import { IgrExcelModule } from "@infragistics/igniteui-react-excel";
+import { Workbook } from "@infragistics/igniteui-react-excel";
+import { Worksheet } from "@infragistics/igniteui-react-excel";
+import { WorkbookFormat } from "@infragistics/igniteui-react-excel";
+import { Color } from "@infragistics/igniteui-react-core";
 import {
 
     CustomFilterCondition,
@@ -16,7 +16,7 @@ import {
     RelativeIndex,
     SortDirection,
     WorkbookColorInfo
-} from 'igniteui-react-excel';
+} from "@infragistics/igniteui-react-excel";
 
 IgrExcelModule.register();
 

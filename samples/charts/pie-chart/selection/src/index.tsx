@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrItemLegend } from 'igniteui-react-charts';
-import { IgrItemLegendModule } from 'igniteui-react-charts';
-import { IgrPieChart } from 'igniteui-react-charts';
-import { IgrPieChartModule } from 'igniteui-react-charts';
-import { IgrPieChartBase } from 'igniteui-react-charts';
-import { IIgrPieChartBaseProps } from 'igniteui-react-charts';
-import { IgrSliceClickEventArgs } from 'igniteui-react-charts';
+import { IgrItemLegend } from "@infragistics/igniteui-react-charts";
+import { IgrItemLegendModule } from "@infragistics/igniteui-react-charts";
+import { IgrPieChart } from "@infragistics/igniteui-react-charts";
+import { IgrPieChartModule } from "@infragistics/igniteui-react-charts";
+import { IgrPieChartBase } from "@infragistics/igniteui-react-charts";
+import { IIgrPieChartBaseProps } from "@infragistics/igniteui-react-charts";
+import { IgrSliceClickEventArgs } from "@infragistics/igniteui-react-charts";
 
 IgrPieChartModule.register();
 IgrItemLegendModule.register();

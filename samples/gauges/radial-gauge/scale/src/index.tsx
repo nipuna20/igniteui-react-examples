@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrRadialGauge } from 'igniteui-react-gauges';
-import { IgrRadialGaugeModule } from 'igniteui-react-gauges';
+import { IgrRadialGauge } from "@infragistics/igniteui-react-gauges";
+import { IgrRadialGaugeModule } from "@infragistics/igniteui-react-gauges";
 
 IgrRadialGaugeModule.register();
 

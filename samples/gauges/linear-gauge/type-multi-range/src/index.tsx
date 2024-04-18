@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrLinearGauge } from 'igniteui-react-gauges';
-import { IgrLinearGraphRange } from 'igniteui-react-gauges';
-import { IgrLinearGaugeModule } from 'igniteui-react-gauges';
-import { LinearGraphNeedleShape } from 'igniteui-react-gauges';
+import { IgrLinearGauge } from "@infragistics/igniteui-react-gauges";
+import { IgrLinearGraphRange } from "@infragistics/igniteui-react-gauges";
+import { IgrLinearGaugeModule } from "@infragistics/igniteui-react-gauges";
+import { LinearGraphNeedleShape } from "@infragistics/igniteui-react-gauges";
 
 IgrLinearGaugeModule.register();
 

@@ -36,7 +36,7 @@ RegisterServiceWorker();
 // serviceWorker.unregister();
 
 // // copied from https://stenciljs.com/docs/react
-// import { applyPolyfills, defineCustomElements } from 'igniteui-dockmanager/loader';
+// import { applyPolyfills, defineCustomElements } from "@infragistics/igniteui-dockmanager/loader";
 
 // applyPolyfills().then(() => {
 //   defineCustomElements();

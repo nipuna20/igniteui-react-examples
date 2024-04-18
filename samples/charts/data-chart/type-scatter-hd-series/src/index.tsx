@@ -2,18 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // types of axis:
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrNumericXAxis } from 'igniteui-react-charts';
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericXAxis } from "@infragistics/igniteui-react-charts";
 // elements of scatter series:
-import { IgrHighDensityScatterSeries } from 'igniteui-react-charts';
+import { IgrHighDensityScatterSeries } from "@infragistics/igniteui-react-charts";
 // data chart's modules:
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartScatterCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartScatterModule } from 'igniteui-react-charts';
-import { IgrHighDensityScatterSeriesModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrNumberAbbreviatorModule } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartScatterCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartScatterModule } from "@infragistics/igniteui-react-charts";
+import { IgrHighDensityScatterSeriesModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrNumberAbbreviatorModule } from "@infragistics/igniteui-react-charts";
 import { SampleDensityData } from './SampleDensityData';
 
 IgrDataChartCoreModule.register();

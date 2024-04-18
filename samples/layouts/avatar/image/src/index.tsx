@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrAvatarModule, IgrAvatar } from 'igniteui-react';
+import { IgrAvatarModule, IgrAvatar } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrAvatarModule.register();

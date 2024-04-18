@@ -3,23 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./DataGridStyles.css";
 import { DataGridSharedData } from './DataGridSharedData';
-import { IgrDataGridModule } from 'igniteui-react-grids';
-import { IgrGridColumnOptionsModule } from 'igniteui-react-grids';
-import { IgrDataGrid } from 'igniteui-react-grids';
-import { IgrTextColumn } from 'igniteui-react-grids';
-import { IgrNumericColumn } from 'igniteui-react-grids';
-import { IgrDateTimeColumn } from 'igniteui-react-grids';
-import { IgrImageColumn } from 'igniteui-react-grids';
-import { IgrTemplateColumn } from 'igniteui-react-grids';
-import { IgrComboBoxColumn } from 'igniteui-react-grids';
+import { IgrDataGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrGridColumnOptionsModule } from "@infragistics/igniteui-react-grids";
+import { IgrDataGrid } from "@infragistics/igniteui-react-grids";
+import { IgrTextColumn } from "@infragistics/igniteui-react-grids";
+import { IgrNumericColumn } from "@infragistics/igniteui-react-grids";
+import { IgrDateTimeColumn } from "@infragistics/igniteui-react-grids";
+import { IgrImageColumn } from "@infragistics/igniteui-react-grids";
+import { IgrTemplateColumn } from "@infragistics/igniteui-react-grids";
+import { IgrComboBoxColumn } from "@infragistics/igniteui-react-grids";
 import { IgrTemplateCellUpdatingEventArgs,
 
-    IgrGridCellValueChangingEventArgs } from 'igniteui-react-grids';
-import { IgrTemplateCellInfo } from 'igniteui-react-grids';
-import { IIgrCellTemplateProps } from 'igniteui-react-grids';
+    IgrGridCellValueChangingEventArgs } from "@infragistics/igniteui-react-grids";
+import { IgrTemplateCellInfo } from "@infragistics/igniteui-react-grids";
+import { IIgrCellTemplateProps } from "@infragistics/igniteui-react-grids";
 
-import { IgrSparkline } from 'igniteui-react-charts';
-import { IgrSparklineModule } from 'igniteui-react-charts';
+import { IgrSparkline } from "@infragistics/igniteui-react-charts";
+import { IgrSparklineModule } from "@infragistics/igniteui-react-charts";
 
 IgrDataGridModule.register();
 IgrGridColumnOptionsModule.register();

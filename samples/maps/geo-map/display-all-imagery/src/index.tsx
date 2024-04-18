@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BingMapsImageryStyle } from 'igniteui-react-maps';
-import { IgrBingMapsMapImagery } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrOpenStreetMapImagery } from 'igniteui-react-maps';
-import { IgrArcGISOnlineMapImagery } from 'igniteui-react-maps';
+import { BingMapsImageryStyle } from "@infragistics/igniteui-react-maps";
+import { IgrBingMapsMapImagery } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrOpenStreetMapImagery } from "@infragistics/igniteui-react-maps";
+import { IgrArcGISOnlineMapImagery } from "@infragistics/igniteui-react-maps";
 import { EsriUtility, EsriStyle } from './EsriUtility';
 import { MapUtils } from './MapUtils';
 

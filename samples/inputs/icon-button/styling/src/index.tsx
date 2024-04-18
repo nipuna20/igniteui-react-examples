@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrIconButton, IgrIconButtonModule } from 'igniteui-react';
+import { IgrIconButton, IgrIconButtonModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 import "./IconButtonStyling.css";
 

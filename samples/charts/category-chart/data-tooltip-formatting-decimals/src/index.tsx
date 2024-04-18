@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrLegendModule, IgrCategoryChartModule } from 'igniteui-react-charts';
-import { IgrCategoryChart } from 'igniteui-react-charts';
+import { IgrLegendModule, IgrCategoryChartModule } from "@infragistics/igniteui-react-charts";
+import { IgrCategoryChart } from "@infragistics/igniteui-react-charts";
 import { HighestGrossingMoviesItem, HighestGrossingMovies } from './HighestGrossingMovies';
 
 const mods: any[] = [

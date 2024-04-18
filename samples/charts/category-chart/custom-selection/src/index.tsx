@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrDataLegendModule, IgrCategoryChartModule, IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrDataLegend, IgrCategoryChart } from 'igniteui-react-charts';
+import { IgrDataLegendModule, IgrCategoryChartModule, IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataLegend, IgrCategoryChart } from "@infragistics/igniteui-react-charts";
 import { SelectableDataItem, SelectableData } from './SelectableData';
 
 const mods: any[] = [

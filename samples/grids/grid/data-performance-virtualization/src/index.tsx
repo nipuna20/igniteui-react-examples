@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrBadgeModule } from 'igniteui-react';
-import { IgrGrid, IgrColumn } from 'igniteui-react-grids';
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrBadgeModule } from "@infragistics/igniteui-react";
+import { IgrGrid, IgrColumn } from "@infragistics/igniteui-react-grids";
 import { FinancialDataAllItem, FinancialDataAll } from './FinancialDataAll';
-import { IgrBadge } from 'igniteui-react';
-import { IgrCellTemplateContext } from 'igniteui-react-grids';
+import { IgrBadge } from "@infragistics/igniteui-react";
+import { IgrCellTemplateContext } from "@infragistics/igniteui-react-grids";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule,

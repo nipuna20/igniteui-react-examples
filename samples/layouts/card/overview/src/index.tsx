@@ -5,7 +5,7 @@ import './CardOverview.css';
 import { IgrCard, IgrCardMedia, IgrCardHeader,
     IgrCardContent, IgrCardActions, IgrCardModule,
     IgrIconButton, IgrIconButtonModule, IgrButton,
-    IgrButtonModule, IgrRipple, IgrRippleModule } from 'igniteui-react';
+    IgrButtonModule, IgrRipple, IgrRippleModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrCardModule.register();

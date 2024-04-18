@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrLinearProgress, IgrLinearProgressModule } from 'igniteui-react';
+import { IgrLinearProgress, IgrLinearProgressModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrLinearProgressModule.register();

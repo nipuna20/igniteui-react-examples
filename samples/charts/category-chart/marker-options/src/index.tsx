@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule } from 'igniteui-react-layouts';
-import { IgrCategoryChartModule, IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from 'igniteui-react-layouts';
-import { IgrCategoryChart } from 'igniteui-react-charts';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, CategoryChartDescriptionModule, DataChartInteractivityDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule } from "@infragistics/igniteui-react-layouts";
+import { IgrCategoryChartModule, IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription } from "@infragistics/igniteui-react-layouts";
+import { IgrCategoryChart } from "@infragistics/igniteui-react-charts";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, CategoryChartDescriptionModule, DataChartInteractivityDescriptionModule } from "@infragistics/igniteui-react-core";
 import { CountryRenewableElectricityItem, CountryRenewableElectricity } from './CountryRenewableElectricity';
-import { IgrPropertyEditorPropertyDescriptionChangedEventArgs } from 'igniteui-react-layouts';
-import { MarkerType, MarkerType_$type } from 'igniteui-react-charts';
-import { EnumUtil } from 'igniteui-react-core';
+import { IgrPropertyEditorPropertyDescriptionChangedEventArgs } from "@infragistics/igniteui-react-layouts";
+import { MarkerType, MarkerType_$type } from "@infragistics/igniteui-react-charts";
+import { EnumUtil } from "@infragistics/igniteui-react-core";
 
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 

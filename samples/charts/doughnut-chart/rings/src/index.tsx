@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrLegendModule, IgrDoughnutChartModule } from 'igniteui-react-charts';
-import { IgrDoughnutChart, IgrRingSeries } from 'igniteui-react-charts';
+import { IgrLegendModule, IgrDoughnutChartModule } from "@infragistics/igniteui-react-charts";
+import { IgrDoughnutChart, IgrRingSeries } from "@infragistics/igniteui-react-charts";
 import { CalendarSeasonsItem, CalendarSeasons } from './CalendarSeasons';
 import { CalendarMonthsItem, CalendarMonths } from './CalendarMonths';
 

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrPropertyEditorPanelModule, IgrToolbarModule } from 'igniteui-react-layouts';
-import { IgrDataChartToolbarModule, IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule, IgrAnnotationLayerProxyModule, IgrDataChartCategoryTrendLineModule } from 'igniteui-react-charts';
-import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription, IgrToolbar } from 'igniteui-react-layouts';
-import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrLineSeries } from 'igniteui-react-charts';
-import { ComponentRenderer, PropertyEditorPanelDescriptionModule, ToolbarDescriptionModule, DataChartToolbarDescriptionModule, DataChartCoreDescriptionModule, DataChartCategoryDescriptionModule, DataChartAnnotationDescriptionModule, DataChartInteractivityDescriptionModule, AnnotationLayerProxyDescriptionModule, DataChartCategoryTrendLineDescriptionModule } from 'igniteui-react-core';
+import { IgrPropertyEditorPanelModule, IgrToolbarModule } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChartToolbarModule, IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartAnnotationModule, IgrDataChartInteractivityModule, IgrAnnotationLayerProxyModule, IgrDataChartCategoryTrendLineModule } from "@infragistics/igniteui-react-charts";
+import { IgrPropertyEditorPanel, IgrPropertyEditorPropertyDescription, IgrToolbar } from "@infragistics/igniteui-react-layouts";
+import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrLineSeries } from "@infragistics/igniteui-react-charts";
+import { ComponentRenderer, PropertyEditorPanelDescriptionModule, ToolbarDescriptionModule, DataChartToolbarDescriptionModule, DataChartCoreDescriptionModule, DataChartCategoryDescriptionModule, DataChartAnnotationDescriptionModule, DataChartInteractivityDescriptionModule, AnnotationLayerProxyDescriptionModule, DataChartCategoryTrendLineDescriptionModule } from "@infragistics/igniteui-react-core";
 import { CountryRenewableElectricityItem, CountryRenewableElectricity } from './CountryRenewableElectricity';
 
 import 'igniteui-webcomponents/themes/light/bootstrap.css';

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDoughnutChartModule } from 'igniteui-react-charts';
-import { IgrDoughnutChart } from 'igniteui-react-charts';
-import { IgrItemLegend } from 'igniteui-react-charts';
-import { IgrItemLegendModule } from 'igniteui-react-charts';
-import { IgrRingSeriesModule } from 'igniteui-react-charts';
-import { IgrRingSeries } from 'igniteui-react-charts';
-import { IgrSliceClickEventArgs } from 'igniteui-react-charts';
+import { IgrDoughnutChartModule } from "@infragistics/igniteui-react-charts";
+import { IgrDoughnutChart } from "@infragistics/igniteui-react-charts";
+import { IgrItemLegend } from "@infragistics/igniteui-react-charts";
+import { IgrItemLegendModule } from "@infragistics/igniteui-react-charts";
+import { IgrRingSeriesModule } from "@infragistics/igniteui-react-charts";
+import { IgrRingSeries } from "@infragistics/igniteui-react-charts";
+import { IgrSliceClickEventArgs } from "@infragistics/igniteui-react-charts";
 
 IgrDoughnutChartModule.register();
 IgrRingSeriesModule.register();

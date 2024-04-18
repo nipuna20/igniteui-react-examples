@@ -16,13 +16,13 @@ import {
     IgrGridState,
     IgrGridStateOptions,
     GridSelectionMode
-} from 'igniteui-react-grids';
-import { IgrButton, IgrCheckbox, IgrCheckboxModule, IgrComponentBoolValueChangedEventArgs, IgrIcon, IgrIconModule } from 'igniteui-react';
+} from "@infragistics/igniteui-react-grids";
+import { IgrButton, IgrCheckbox, IgrCheckboxModule, IgrComponentBoolValueChangedEventArgs, IgrIcon, IgrIconModule } from "@infragistics/igniteui-react";
 import { registerIconFromText } from 'igniteui-webcomponents';
 import { CustomersData } from './CustomersData';
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 import './index.css';
 
 const mods: any[] = [

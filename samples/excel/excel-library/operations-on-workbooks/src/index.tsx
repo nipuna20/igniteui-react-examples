@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDataGridModule } from 'igniteui-react-grids';
-import { IgrDataGrid } from 'igniteui-react-grids';
-import { Workbook } from 'igniteui-react-excel';
-import { WorkbookFormat } from 'igniteui-react-excel';
-import { WorksheetRegion } from 'igniteui-react-excel';
+import { IgrDataGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrDataGrid } from "@infragistics/igniteui-react-grids";
+import { Workbook } from "@infragistics/igniteui-react-excel";
+import { WorkbookFormat } from "@infragistics/igniteui-react-excel";
+import { WorksheetRegion } from "@infragistics/igniteui-react-excel";
 import { ExcelUtility } from './ExcelUtility';
 
 IgrDataGridModule.register();

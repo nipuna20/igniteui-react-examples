@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { ButtonVariant, IgrButton } from 'igniteui-react';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import { ButtonVariant, IgrButton } from "@infragistics/igniteui-react";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 import './index.css';
 
 export default function App() {

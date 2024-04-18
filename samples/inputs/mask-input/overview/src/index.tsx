@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrMaskInput, IgrIcon, IgrMaskInputModule, IgrIconModule } from 'igniteui-react';
+import { IgrMaskInput, IgrIcon, IgrMaskInputModule, IgrIconModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrMaskInputModule.register();

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrCategoryChartModule, IgrLegendModule, IgrLegend, IgrCategoryChart, IgrColumnSeries } from 'igniteui-react-charts';
-import { DataTemplateMeasureInfo, DataTemplateRenderInfo } from 'igniteui-react-core';
+import { IgrCategoryChartModule, IgrLegendModule, IgrLegend, IgrCategoryChart, IgrColumnSeries } from "@infragistics/igniteui-react-charts";
+import { DataTemplateMeasureInfo, DataTemplateRenderInfo } from "@infragistics/igniteui-react-core";
 
 IgrCategoryChartModule.register();
 IgrLegendModule.register();

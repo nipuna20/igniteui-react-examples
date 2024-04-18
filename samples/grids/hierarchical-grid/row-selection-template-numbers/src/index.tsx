@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrHierarchicalGridModule } from 'igniteui-react-grids';
-import { IgrCheckboxModule } from 'igniteui-react';
-import { IgrHierarchicalGrid, IgrPaginator, IgrColumn, IgrRowIsland } from 'igniteui-react-grids';
-import { ComponentRenderer, WebHierarchicalGridDescriptionModule, WebCheckboxDescriptionModule } from 'igniteui-react-core';
+import { IgrHierarchicalGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrCheckboxModule } from "@infragistics/igniteui-react";
+import { IgrHierarchicalGrid, IgrPaginator, IgrColumn, IgrRowIsland } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebHierarchicalGridDescriptionModule, WebCheckboxDescriptionModule } from "@infragistics/igniteui-react-core";
 import SingersData from './SingersData.json';
-import { IgrRowSelectorTemplateContext, IgrHeadSelectorTemplateContext } from 'igniteui-react-grids';
-import { IgrCheckbox } from 'igniteui-react';
+import { IgrRowSelectorTemplateContext, IgrHeadSelectorTemplateContext } from "@infragistics/igniteui-react-grids";
+import { IgrCheckbox } from "@infragistics/igniteui-react";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrHierarchicalGridModule,

@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { ExcelUtility } from './ExcelUtility';
 // import { ExcelSharedData } from './ExcelSharedData';
-import { IgrExcelModule } from 'igniteui-react-excel';
-import { Workbook } from 'igniteui-react-excel';
-import { Worksheet } from 'igniteui-react-excel';
-import { WorkbookFormat } from 'igniteui-react-excel';
-import { CellReferenceMode } from 'igniteui-react-excel';
-import { WorksheetMergedCellsRegion } from 'igniteui-react-excel';
-import { WorksheetCellComment } from 'igniteui-react-excel';
-import { FormattedString } from 'igniteui-react-excel';
-import { Formula } from 'igniteui-react-excel';
+import { IgrExcelModule } from "@infragistics/igniteui-react-excel";
+import { Workbook } from "@infragistics/igniteui-react-excel";
+import { Worksheet } from "@infragistics/igniteui-react-excel";
+import { WorkbookFormat } from "@infragistics/igniteui-react-excel";
+import { CellReferenceMode } from "@infragistics/igniteui-react-excel";
+import { WorksheetMergedCellsRegion } from "@infragistics/igniteui-react-excel";
+import { WorksheetCellComment } from "@infragistics/igniteui-react-excel";
+import { FormattedString } from "@infragistics/igniteui-react-excel";
+import { Formula } from "@infragistics/igniteui-react-excel";
 
 IgrExcelModule.register();
 

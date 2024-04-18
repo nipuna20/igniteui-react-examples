@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // axis' modules:
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrNumericXAxis } from 'igniteui-react-charts';
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericXAxis } from "@infragistics/igniteui-react-charts";
 // series' modules:
-import { IgrScatterPolygonSeries } from 'igniteui-react-charts';
-import { IgrScatterPolylineSeries } from 'igniteui-react-charts';
+import { IgrScatterPolygonSeries } from "@infragistics/igniteui-react-charts";
+import { IgrScatterPolylineSeries } from "@infragistics/igniteui-react-charts";
 // data chart's modules:
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartShapeCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartShapeModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartShapeCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartShapeModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 import { SampleShapeData } from './SampleShapeData';
 
 IgrDataChartCoreModule.register();

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrCheckbox, IgrCheckboxModule } from 'igniteui-react';
+import { IgrCheckbox, IgrCheckboxModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrCheckboxModule.register();

@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrHierarchicalGridModule, IgrGridToolbarModule } from 'igniteui-react-grids';
-import { IgrHierarchicalGrid, IgrGridToolbar, IgrGridToolbarActions, IgrGridToolbarExporter, IgrColumn, IgrRowIsland } from 'igniteui-react-grids';
+import { IgrHierarchicalGridModule, IgrGridToolbarModule } from "@infragistics/igniteui-react-grids";
+import { IgrHierarchicalGrid, IgrGridToolbar, IgrGridToolbarActions, IgrGridToolbarExporter, IgrColumn, IgrRowIsland } from "@infragistics/igniteui-react-grids";
 import SingersData from './SingersData.json';
-import { IgrExporterOptionsBase, IgrGridToolbarExportEventArgs } from 'igniteui-react-grids';
+import { IgrExporterOptionsBase, IgrGridToolbarExportEventArgs } from "@infragistics/igniteui-react-grids";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrHierarchicalGridModule,

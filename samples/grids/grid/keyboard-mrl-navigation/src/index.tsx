@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrGridModule, IgrColumnLayoutModule } from 'igniteui-react-grids';
-import { IgrGrid, IgrColumnLayout, IgrColumn } from 'igniteui-react-grids';
-import { ComponentRenderer, WebGridDescriptionModule, WebColumnLayoutDescriptionModule } from 'igniteui-react-core';
+import { IgrGridModule, IgrColumnLayoutModule } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrColumnLayout, IgrColumn } from "@infragistics/igniteui-react-grids";
+import { ComponentRenderer, WebGridDescriptionModule, WebColumnLayoutDescriptionModule } from "@infragistics/igniteui-react-core";
 import { CompanyDataItem, CompanyData } from './CompanyData';
-import { IgrGridKeydownEventArgs } from 'igniteui-react-grids';
+import { IgrGridKeydownEventArgs } from "@infragistics/igniteui-react-grids";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrGridModule,

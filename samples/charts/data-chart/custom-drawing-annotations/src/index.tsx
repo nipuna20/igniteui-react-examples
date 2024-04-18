@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDataChart, IgrCategoryXAxis, IgrLegend, IgrDataToolTipLayer, IgrFinalValueLayer, IgrFinancialPriceSeries, IgrLineSeries, IgrNumericYAxis, IgrRangeAreaSeries, IgrPlotAreaMouseButtonEventArgs, IgrSeriesViewer, IgrPlotAreaMouseEventArgs } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule, IgrDataChartCategoryCoreModule, IgrDataChartCategoryModule, IgrDataChartFinancialCoreModule, IgrDataChartFinancialModule, IgrDataChartFinancialOverlaysModule, IgrDataChartInteractivityModule, IgrLegendModule, IgrDataChartToolbarModule, IgrDataChartAnnotationModule } from 'igniteui-react-charts';
-import { IgrToolbar, IgrToolActionLabel, IgrToolActionSeparator, IgrToolbarModule, IgrToolCommandEventArgs } from "igniteui-react-layouts";
-import { IgPoint }  from "igniteui-react-core";
+import { IgrDataChart, IgrCategoryXAxis, IgrLegend, IgrDataToolTipLayer, IgrFinalValueLayer, IgrFinancialPriceSeries, IgrLineSeries, IgrNumericYAxis, IgrRangeAreaSeries, IgrPlotAreaMouseButtonEventArgs, IgrSeriesViewer, IgrPlotAreaMouseEventArgs } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule, IgrDataChartCategoryCoreModule, IgrDataChartCategoryModule, IgrDataChartFinancialCoreModule, IgrDataChartFinancialModule, IgrDataChartFinancialOverlaysModule, IgrDataChartInteractivityModule, IgrLegendModule, IgrDataChartToolbarModule, IgrDataChartAnnotationModule } from "@infragistics/igniteui-react-charts";
+import { IgrToolbar, IgrToolActionLabel, IgrToolActionSeparator, IgrToolbarModule, IgrToolCommandEventArgs } from "@infragistics/igniteui-react-layouts";
+import { IgPoint }  from "@infragistics/igniteui-react-core";
 import StocksHistory from './StocksHistory';
 
 IgrToolbarModule.register();

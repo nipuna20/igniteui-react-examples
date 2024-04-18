@@ -2,24 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // axis modules:
-import { IgrNumericAngleAxis } from 'igniteui-react-charts';
-import { IgrNumericRadiusAxis } from 'igniteui-react-charts';
+import { IgrNumericAngleAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericRadiusAxis } from "@infragistics/igniteui-react-charts";
 // series modules:
-import { IgrPolarAreaSeries } from 'igniteui-react-charts';
-import { IgrPolarLineSeries } from 'igniteui-react-charts';
-import { IgrPolarSplineSeries } from 'igniteui-react-charts';
-import { IgrPolarSplineAreaSeries } from 'igniteui-react-charts';
-import { IgrPolarScatterSeries } from 'igniteui-react-charts';
+import { IgrPolarAreaSeries } from "@infragistics/igniteui-react-charts";
+import { IgrPolarLineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrPolarSplineSeries } from "@infragistics/igniteui-react-charts";
+import { IgrPolarSplineAreaSeries } from "@infragistics/igniteui-react-charts";
+import { IgrPolarScatterSeries } from "@infragistics/igniteui-react-charts";
 // data chart's modules:
-import { MarkerType } from 'igniteui-react-charts';
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartPolarCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartPolarModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { MarkerType } from "@infragistics/igniteui-react-charts";
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartPolarCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartPolarModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 // legend's modules:
-import { IgrLegend } from 'igniteui-react-charts';
-import { IgrLegendModule } from 'igniteui-react-charts';
+import { IgrLegend } from "@infragistics/igniteui-react-charts";
+import { IgrLegendModule } from "@infragistics/igniteui-react-charts";
 import { SamplePolarData } from './SamplePolarData';
 
 IgrDataChartCoreModule.register();

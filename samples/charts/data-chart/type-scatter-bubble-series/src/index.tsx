@@ -3,23 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { SampleScatterStats } from './SampleScatterStats';
 // data chart's modules:
-import { IgrDataChart } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule } from 'igniteui-react-charts';
+import { IgrDataChart } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule } from "@infragistics/igniteui-react-charts";
 // scatter series' modules:
-import { IgrDataChartScatterCoreModule } from 'igniteui-react-charts';
-import { IgrDataChartScatterModule } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { IgrNumberAbbreviatorModule } from 'igniteui-react-charts';
+import { IgrDataChartScatterCoreModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartScatterModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { IgrNumberAbbreviatorModule } from "@infragistics/igniteui-react-charts";
 // scatter series' elements:
-import { IgrNumericYAxis } from 'igniteui-react-charts';
-import { IgrNumericXAxis } from 'igniteui-react-charts';
-import { IgrBubbleSeries } from 'igniteui-react-charts';
-import { IgrSizeScale } from 'igniteui-react-charts';
-import { MarkerType } from 'igniteui-react-charts';
-import { IgrDataContext } from 'igniteui-react-core';
+import { IgrNumericYAxis } from "@infragistics/igniteui-react-charts";
+import { IgrNumericXAxis } from "@infragistics/igniteui-react-charts";
+import { IgrBubbleSeries } from "@infragistics/igniteui-react-charts";
+import { IgrSizeScale } from "@infragistics/igniteui-react-charts";
+import { MarkerType } from "@infragistics/igniteui-react-charts";
+import { IgrDataContext } from "@infragistics/igniteui-react-core";
 // legend's modules:
-import { IgrLegend } from 'igniteui-react-charts';
-import { IgrLegendModule } from 'igniteui-react-charts';
+import { IgrLegend } from "@infragistics/igniteui-react-charts";
+import { IgrLegendModule } from "@infragistics/igniteui-react-charts";
 
 IgrDataChartCoreModule.register();
 IgrDataChartScatterCoreModule.register();

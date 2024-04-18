@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { IgrList, IgrListItem, IgrListHeader, IgrRadioGroup, IgrRadio, IgrAvatar, IgrButton,
-         IgrListModule, IgrRadioGroupModule, IgrRadioModule, IgrAvatarModule, IgrButtonModule } from 'igniteui-react';
+         IgrListModule, IgrRadioGroupModule, IgrRadioModule, IgrAvatarModule, IgrButtonModule } from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrAvatarModule.register();

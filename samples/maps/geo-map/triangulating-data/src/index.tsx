@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { ColorScaleInterpolationMode } from 'igniteui-react-charts';
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrGeographicScatterAreaSeries } from 'igniteui-react-maps';
-import { IgrCustomPaletteColorScale } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
+import { ColorScaleInterpolationMode } from "@infragistics/igniteui-react-charts";
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicScatterAreaSeries } from "@infragistics/igniteui-react-maps";
+import { IgrCustomPaletteColorScale } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

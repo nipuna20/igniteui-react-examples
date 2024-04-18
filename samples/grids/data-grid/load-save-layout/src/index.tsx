@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./DataGridStyles.css";
 import { DataGridSharedData } from './DataGridSharedData';
-import { IgrDataGridModule } from 'igniteui-react-grids';
-import { IgrGridColumnOptionsModule } from 'igniteui-react-grids';
-import { IgrDataGrid } from 'igniteui-react-grids';
-import { IgrDataGridToolbarModule } from "igniteui-react-grids";
-import { IgrDataGridToolbar } from "igniteui-react-grids";
-import { IgrTextColumn } from 'igniteui-react-grids';
-import { IgrNumericColumn } from 'igniteui-react-grids';
-import { IgrDateTimeColumn } from 'igniteui-react-grids';
-import { IgrImageColumn } from 'igniteui-react-grids';
-import { IgrColumnGroupDescription } from 'igniteui-react-grids';
-import { IgrColumnSummaryDescription } from 'igniteui-react-grids'
-import { DataSourceSummaryOperand } from 'igniteui-react-core';
-import { IgrButton } from 'igniteui-react';
-import { IgrButtonModule } from 'igniteui-react';
+import { IgrDataGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrGridColumnOptionsModule } from "@infragistics/igniteui-react-grids";
+import { IgrDataGrid } from "@infragistics/igniteui-react-grids";
+import { IgrDataGridToolbarModule } from "@infragistics/igniteui-react-grids";
+import { IgrDataGridToolbar } from "@infragistics/igniteui-react-grids";
+import { IgrTextColumn } from "@infragistics/igniteui-react-grids";
+import { IgrNumericColumn } from "@infragistics/igniteui-react-grids";
+import { IgrDateTimeColumn } from "@infragistics/igniteui-react-grids";
+import { IgrImageColumn } from "@infragistics/igniteui-react-grids";
+import { IgrColumnGroupDescription } from "@infragistics/igniteui-react-grids";
+import { IgrColumnSummaryDescription } from "@infragistics/igniteui-react-grids"
+import { DataSourceSummaryOperand } from "@infragistics/igniteui-react-core";
+import { IgrButton } from "@infragistics/igniteui-react";
+import { IgrButtonModule } from "@infragistics/igniteui-react";
 
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 

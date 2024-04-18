@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrLinearProgressModule } from 'igniteui-react';
-import { IgrGridModule } from 'igniteui-react-grids';
-import { IgrGrid, IgrPaginator, IgrColumn, IgrColumnPipeArgs } from 'igniteui-react-grids';
+import { IgrLinearProgressModule } from "@infragistics/igniteui-react";
+import { IgrGridModule } from "@infragistics/igniteui-react-grids";
+import { IgrGrid, IgrPaginator, IgrColumn, IgrColumnPipeArgs } from "@infragistics/igniteui-react-grids";
 import { AthletesDataItem, AthletesData } from './AthletesData';
-import { IgrCellTemplateContext } from 'igniteui-react-grids';
-import { IgrLinearProgress } from 'igniteui-react';
+import { IgrCellTemplateContext } from "@infragistics/igniteui-react-grids";
+import { IgrLinearProgress } from "@infragistics/igniteui-react";
 
-import 'igniteui-react-grids/grids/combined';
-import 'igniteui-react-grids/grids/themes/light/bootstrap.css';
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 const mods: any[] = [
     IgrLinearProgressModule,

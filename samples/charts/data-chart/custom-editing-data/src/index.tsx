@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrDataChart, IgrDataToolTipLayer, IgrCategoryXAxis, IgrNumericXAxis, IgrNumericYAxis, IgrLineSeries, IgrPointSeries, IgrScatterLineSeries, IgrScatterSeries, IgrPlotAreaMouseButtonEventArgs, IgrPlotAreaMouseEventArgs, IgrDataChartMouseButtonEventArgs, IgrSeriesViewer } from 'igniteui-react-charts';
-import { IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartInteractivityModule, IgrDataChartScatterCoreModule, IgrDataChartScatterModule, IgrLegendModule, IgrDataChartAnnotationModule, IgrAnnotationLayerProxyModule, IgrNumberAbbreviatorModule } from 'igniteui-react-charts';
+import { IgrDataChart, IgrDataToolTipLayer, IgrCategoryXAxis, IgrNumericXAxis, IgrNumericYAxis, IgrLineSeries, IgrPointSeries, IgrScatterLineSeries, IgrScatterSeries, IgrPlotAreaMouseButtonEventArgs, IgrPlotAreaMouseEventArgs, IgrDataChartMouseButtonEventArgs, IgrSeriesViewer } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartCoreModule, IgrDataChartCategoryModule, IgrDataChartInteractivityModule, IgrDataChartScatterCoreModule, IgrDataChartScatterModule, IgrLegendModule, IgrDataChartAnnotationModule, IgrAnnotationLayerProxyModule, IgrNumberAbbreviatorModule } from "@infragistics/igniteui-react-charts";
 import { EditableDataSource } from './EditableDataSource';
 
 IgrLegendModule.register();

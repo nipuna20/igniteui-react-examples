@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import WorldLocations from "./WorldLocations";
-import { IgrGeographicMapModule, IgrGeographicMap, IgrGeographicSymbolSeries } from 'igniteui-react-maps';
-import { IgrDataChartInteractivityModule, MarkerType } from 'igniteui-react-charts';
-import { DataTemplateMeasureInfo, DataTemplateRenderInfo } from 'igniteui-react-core';
+import { IgrGeographicMapModule, IgrGeographicMap, IgrGeographicSymbolSeries } from "@infragistics/igniteui-react-maps";
+import { IgrDataChartInteractivityModule, MarkerType } from "@infragistics/igniteui-react-charts";
+import { DataTemplateMeasureInfo, DataTemplateRenderInfo } from "@infragistics/igniteui-react-core";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();

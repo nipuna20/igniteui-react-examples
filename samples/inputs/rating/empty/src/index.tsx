@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { IgrRating, IgrRatingModule, IgrRatingSymbol, IgrRatingSymbolModule, IgrIcon, IgrIconModule} from 'igniteui-react';
+import { IgrRating, IgrRatingModule, IgrRatingSymbol, IgrRatingSymbolModule, IgrIcon, IgrIconModule} from "@infragistics/igniteui-react";
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
 
 IgrRatingModule.register();

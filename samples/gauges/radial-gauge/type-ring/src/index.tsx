@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { SweepDirection } from 'igniteui-react-core';
-import { IgrRadialGauge } from 'igniteui-react-gauges';
-import { IgrRadialGaugeModule } from 'igniteui-react-gauges';
-import { IgrRadialGaugeRange } from 'igniteui-react-gauges';
-import { RadialGaugeBackingShape } from 'igniteui-react-gauges';
-import { RadialGaugeNeedleShape } from 'igniteui-react-gauges';
-import { RadialGaugePivotShape } from 'igniteui-react-gauges';
-import { RadialGaugeScaleOversweepShape } from 'igniteui-react-gauges';
+import { SweepDirection } from "@infragistics/igniteui-react-core";
+import { IgrRadialGauge } from "@infragistics/igniteui-react-gauges";
+import { IgrRadialGaugeModule } from "@infragistics/igniteui-react-gauges";
+import { IgrRadialGaugeRange } from "@infragistics/igniteui-react-gauges";
+import { RadialGaugeBackingShape } from "@infragistics/igniteui-react-gauges";
+import { RadialGaugeNeedleShape } from "@infragistics/igniteui-react-gauges";
+import { RadialGaugePivotShape } from "@infragistics/igniteui-react-gauges";
+import { RadialGaugeScaleOversweepShape } from "@infragistics/igniteui-react-gauges";
 
 IgrRadialGaugeModule.register();
 

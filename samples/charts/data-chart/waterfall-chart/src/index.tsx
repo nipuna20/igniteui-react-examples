@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { IgrDataChartCoreModule, IgrDataChartCategoryModule } from 'igniteui-react-charts';
-import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrWaterfallSeries } from 'igniteui-react-charts';
+import { IgrDataChartCoreModule, IgrDataChartCategoryModule } from "@infragistics/igniteui-react-charts";
+import { IgrDataChart, IgrCategoryXAxis, IgrNumericYAxis, IgrWaterfallSeries } from "@infragistics/igniteui-react-charts";
 import { CompanyIncomeDataItem, CompanyIncomeData } from './CompanyIncomeData';
 
 const mods: any[] = [

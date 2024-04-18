@@ -4,16 +4,16 @@ import "./index.css";
 
 import {
   IgrHierarchicalGridModule,
-} from "igniteui-react-grids";
+} from "@infragistics/igniteui-react-grids";
 import {
   IgrHierarchicalGrid,
   IgrColumn,
   IgrRowIsland,
-} from "igniteui-react-grids";
+} from "@infragistics/igniteui-react-grids";
 import { SingersData } from "./SingersData";
 
-import "igniteui-react-grids/grids/combined";
-import "igniteui-react-grids/grids/themes/light/bootstrap.css";
+import "@infragistics/igniteui-react-grids/grids/combined";
+import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 IgrHierarchicalGridModule.register();
 

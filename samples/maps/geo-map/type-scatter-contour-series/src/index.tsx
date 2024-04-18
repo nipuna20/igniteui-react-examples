@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { LegendOverlay, LegendItem } from "./LegendOverlay"
-import { IgrGeographicMapModule } from 'igniteui-react-maps';
-import { IgrGeographicMap } from 'igniteui-react-maps';
-import { IgrGeographicContourLineSeries } from 'igniteui-react-maps';
-import { IgrValueBrushScale } from 'igniteui-react-charts';
-import { IgrCustomPaletteColorScale } from 'igniteui-react-charts';
-import { IgrDataChartInteractivityModule } from 'igniteui-react-charts';
-import { MarkerType } from 'igniteui-react-charts';
-import { IgrShapeDataSource } from 'igniteui-react-core';
-import { IgrDataContext } from 'igniteui-react-core';
+import { IgrGeographicMapModule } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicMap } from "@infragistics/igniteui-react-maps";
+import { IgrGeographicContourLineSeries } from "@infragistics/igniteui-react-maps";
+import { IgrValueBrushScale } from "@infragistics/igniteui-react-charts";
+import { IgrCustomPaletteColorScale } from "@infragistics/igniteui-react-charts";
+import { IgrDataChartInteractivityModule } from "@infragistics/igniteui-react-charts";
+import { MarkerType } from "@infragistics/igniteui-react-charts";
+import { IgrShapeDataSource } from "@infragistics/igniteui-react-core";
+import { IgrDataContext } from "@infragistics/igniteui-react-core";
 
 IgrGeographicMapModule.register();
 IgrDataChartInteractivityModule.register();
