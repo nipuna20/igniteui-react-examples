@@ -79,14 +79,15 @@ stages:
             }
 
             ConvertTo-Json -InputObject $packageJson | Set-Content -Path .\package.json
+
       - task: Npm@1
         displayName: 'npm install'
         inputs:
-          command: custom
+          command: 'custom'
           workingDir: '$(Build.SourcesDirectory)\browser'
-          verbose: ${{ parameters.isVerbose }}
-          customCommand: 'install'
+          customCommand: 'install --strict-ssl=false'
           customEndpoint: 'public proget'
+          verbose: ${{ parameters.isVerbose }}
 
       - task: PowerShell@2
         displayName: 'Replace references to IG trial packages with licensed ones in TSX files'
