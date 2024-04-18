@@ -122,6 +122,8 @@ stages:
             node -v
             npm -v
             npm run build
+            echo 123
+            cd
           workingDirectory: '$(Build.SourcesDirectory)\browser'
 
       #- task: Npm@1
