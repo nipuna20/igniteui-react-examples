@@ -119,11 +119,11 @@ stages:
         displayName: 'npm run build'
         inputs:
           script: |
-            node -v
-            npm -v
+            cd /D $(Build.SourcesDirectory)\browser
             npm run build
             echo 123
-            cd
+            node -v
+            npm -v
           workingDirectory: '$(Build.SourcesDirectory)\browser'
 
       #- task: Npm@1
