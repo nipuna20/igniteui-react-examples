@@ -149,9 +149,8 @@ stages:
           targetPath: '$(Build.ArtifactStagingDirectory)/ReactSamples.zip'
           artifact: 'ReactSamplesBrowser'
 
-      - ${{ if eq(parameters.shouldCleanPostExectuion, true) }}:
-        - task: PostBuildCleanup@3
-          enabled: true
-          displayName: 'Clean Agent Directories'
-          condition: always()
-          continueOnError: True
+      - task: PostBuildCleanup@3
+        enabled: true
+        displayName: 'Clean Agent Directories'
+        condition: always()
+        continueOnError: True
