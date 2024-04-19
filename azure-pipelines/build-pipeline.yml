@@ -21,10 +21,10 @@ name: $(BuildDefinitionName)_$(Year:yyyy).$(Month).$(DayOfMonth)$(Rev:.r)
 stages:
 - stage: Build
   pool:
-    name: DEVTOOLS-XPLATPROD
+    name: 'Bare Metal Laptops'
     # demands: Beefy
     demands:
-    - Agent.ComputerName -equals S0103XPBLD1
+    - Agent.ComputerName -equals IG-P50-6657
   jobs:
   - job: BuildSamples
     steps:
