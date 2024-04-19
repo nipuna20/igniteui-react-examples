@@ -34,7 +34,7 @@ export class SamplesRouter {
                 // console.log('getRoutes sample.name ' + sample.name);
                 routes.push (
                     <Route exact={true} path={url} key={url} component={sample.component}/>
-                    // <Route exact={false} path={`${process.env.PUBLIC_URL}/samples`} key="samples" component={AppBrowser}/>
+                    // <Route exact={false} path={`${import.meta.env.BASE_URL}/samples`} key="samples" component={AppBrowser}/>
                 );
                 routes.push (
                     <Route exact={true} path={'/samples'+url} key={'/samples'+url} component={sample.component}/>

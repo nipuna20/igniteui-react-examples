@@ -668,12 +668,10 @@ function logPackages(cb) {
         './node_modules/igniteui*/package.json',
         './node_modules/@infragistics/igniteui*/package.json',
         './node_modules/@types/react*/package.json',
-        // './node_modules/classnames/package.json',
         // './node_modules/file-saver/package.json',
         // './node_modules/prop*/package.json',
         './node_modules/react*/package.json',
         './node_modules/typescript/package.json',
-        './node_modules/webpack/package.json',
         './node_modules/worker-loader/package.json',
        '!./node_modules/**/node_modules/**/package.json',
     ])

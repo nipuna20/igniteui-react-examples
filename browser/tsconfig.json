@@ -6,6 +6,7 @@
       "es6",
       "dom"
     ],
+    "types": ["vite/client"],
     "allowJs": true,
     "skipLibCheck": true,
     "module": "esnext",
@@ -41,7 +42,6 @@
     "build",
     "scripts",
     "acceptance-tests",
-    "webpack",
     "jest",
     "src/setupTests.ts",
     "src/navigation/SamplesBuster.tsx",
