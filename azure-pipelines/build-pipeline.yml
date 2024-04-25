@@ -118,11 +118,11 @@ stages:
       - task: CmdLine@2
         displayName: 'npm run build'
         env: 
-          NODE_OPTIONS: --max_old_space_size=16384
+          NODE_OPTIONS: --max_old_space_size=11264
         inputs:
           script: |
             cd /D $(Build.SourcesDirectory)\browser
-            npm run build --max-old-space-size=16384
+            npm run build --max-old-space-size=11264
             echo 123
             node -v
             npm -v
