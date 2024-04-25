@@ -24,7 +24,7 @@ stages:
     name: 'Bare Metal Laptops'
     # demands: Beefy
     demands:
-    - Agent.ComputerName -equals IG-P50-6657
+    - Agent.ComputerName -equals IG-P53-6704
   jobs:
   - job: BuildSamples
     steps:
