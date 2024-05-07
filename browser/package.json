@@ -9,9 +9,9 @@
     "clean": "rm -rf build",
     "lintBrowser": "eslint ./src/**/*.{ts,tsx} ./src/*.{ts,tsx}",
     "lintSamples": "eslint ../samples/**/**/**/*.{ts,tsx} ./templates/**/src/*.{ts,tsx} ",
-    "start": "vite",
-    "build": "node --max_old_space_size=5120 ./node_modules/vite/bin/vite build",
-    "preview": "vite preview",
+    "start": "gulp updateBrowser && vite",
+    "build": "gulp updateBrowser && node --max_old_space_size=5120 ./node_modules/vite/bin/vite build",
+    "preview": "gulp updateBrowser && vite preview",
     "postbuild": "node tasks/copyWebConfig.js && gulp verifyBuild",
     "test": "gulp updateBrowser && react-app-rewired test --env=jsdom"
   },

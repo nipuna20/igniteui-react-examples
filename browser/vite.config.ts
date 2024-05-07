@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import legacy from '@vitejs/plugin-legacy'
 import viteTsconfigPaths from 'vite-tsconfig-paths'
 import path from "path";
 
@@ -9,7 +8,6 @@ export default defineConfig({
   base: '/',
   server: {    
     open: true,
-    force: true,
     port: 4200
   },
   optimizeDeps: {
